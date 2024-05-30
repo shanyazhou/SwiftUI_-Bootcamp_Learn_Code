@@ -14,6 +14,7 @@
 		04E3808D2C08070600AB7CFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E3808C2C08070600AB7CFB /* Preview Assets.xcassets */; };
 		04E380942C0807AA00AB7CFB /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E380932C0807AA00AB7CFB /* TextView.swift */; };
 		04E380962C08081E00AB7CFB /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E380952C08081E00AB7CFB /* ColorView.swift */; };
+		04E380982C080A9200AB7CFB /* GradientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E380972C080A9200AB7CFB /* GradientsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		04E3808C2C08070600AB7CFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04E380932C0807AA00AB7CFB /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		04E380952C08081E00AB7CFB /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		04E380972C080A9200AB7CFB /* GradientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				04E380852C08070400AB7CFB /* ContentView.swift */,
 				04E380932C0807AA00AB7CFB /* TextView.swift */,
 				04E380952C08081E00AB7CFB /* ColorView.swift */,
+				04E380972C080A9200AB7CFB /* GradientsView.swift */,
 				04E380872C08070400AB7CFB /* Item.swift */,
 				04E380892C08070600AB7CFB /* Assets.xcassets */,
 				04E3808B2C08070600AB7CFB /* Preview Content */,
@@ -150,6 +153,7 @@
 				04E380942C0807AA00AB7CFB /* TextView.swift in Sources */,
 				04E380882C08070400AB7CFB /* Item.swift in Sources */,
 				04E380842C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_CodeApp.swift in Sources */,
+				04E380982C080A9200AB7CFB /* GradientsView.swift in Sources */,
 				04E380962C08081E00AB7CFB /* ColorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
