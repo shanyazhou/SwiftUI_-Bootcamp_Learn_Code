@@ -15,6 +15,7 @@
 		04E380942C0807AA00AB7CFB /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E380932C0807AA00AB7CFB /* TextView.swift */; };
 		04E380962C08081E00AB7CFB /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E380952C08081E00AB7CFB /* ColorView.swift */; };
 		04E380982C080A9200AB7CFB /* GradientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E380972C080A9200AB7CFB /* GradientsView.swift */; };
+		04E3809C2C08297200AB7CFB /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3809B2C08297200AB7CFB /* FrameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		04E380932C0807AA00AB7CFB /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		04E380952C08081E00AB7CFB /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		04E380972C080A9200AB7CFB /* GradientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsView.swift; sourceTree = "<group>"; };
+		04E3809B2C08297200AB7CFB /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				04E380952C08081E00AB7CFB /* ColorView.swift */,
 				04E380972C080A9200AB7CFB /* GradientsView.swift */,
 				04E380872C08070400AB7CFB /* Item.swift */,
+				04E3809B2C08297200AB7CFB /* FrameView.swift */,
 				04E380892C08070600AB7CFB /* Assets.xcassets */,
 				04E3808B2C08070600AB7CFB /* Preview Content */,
 			);
@@ -154,6 +157,7 @@
 				04E380882C08070400AB7CFB /* Item.swift in Sources */,
 				04E380842C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_CodeApp.swift in Sources */,
 				04E380982C080A9200AB7CFB /* GradientsView.swift in Sources */,
+				04E3809C2C08297200AB7CFB /* FrameView.swift in Sources */,
 				04E380962C08081E00AB7CFB /* ColorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
