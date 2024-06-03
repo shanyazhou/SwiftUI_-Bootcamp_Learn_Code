@@ -10,8 +10,8 @@ import SwiftUI
 struct LearnGridView: View {
     let columns: [GridItem] = [
         //.fixed：固定大小
-//        GridItem(.fixed(50), spacing: nil, alignment: nil),//代表一列
-//        GridItem(.fixed(150), spacing: nil, alignment: nil),
+        GridItem(.fixed(50), spacing: nil, alignment: nil),//代表一列
+        GridItem(.fixed(150), spacing: nil, alignment: nil),
         
         //.flexible：灵活的
         //整分屏幕：如果只有一个，则整屏；如果有两个，则半屏；依次类推
@@ -21,8 +21,8 @@ struct LearnGridView: View {
         GridItem(.flexible(), spacing: nil, alignment: nil),
         
         //.adaptive：自适应，以最小值为准，尽量多放
-//        GridItem(.adaptive(minimum: 50, maximum: 120), spacing: nil, alignment: nil),
-//        GridItem(.adaptive(minimum: 150, maximum: 120), spacing: nil, alignment: nil),
+        GridItem(.adaptive(minimum: 50, maximum: 120), spacing: nil, alignment: nil),
+        GridItem(.adaptive(minimum: 150, maximum: 120), spacing: nil, alignment: nil),
         
         
     ]

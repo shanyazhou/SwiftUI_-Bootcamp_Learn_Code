@@ -22,6 +22,7 @@
 		04E380A62C09A09200AB7CFB /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E380A52C09A09200AB7CFB /* ScrollViewBootcamp.swift */; };
 		04E380A82C09CC4900AB7CFB /* SafeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E380A72C09CC4900AB7CFB /* SafeView.swift */; };
 		04E380AA2C09D3DB00AB7CFB /* LearnGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E380A92C09D3DB00AB7CFB /* LearnGridView.swift */; };
+		04E380AC2C0AE86A00AB7CFB /* LearnButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E380AB2C0AE86A00AB7CFB /* LearnButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		04E380A52C09A09200AB7CFB /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
 		04E380A72C09CC4900AB7CFB /* SafeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeView.swift; sourceTree = "<group>"; };
 		04E380A92C09D3DB00AB7CFB /* LearnGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnGridView.swift; sourceTree = "<group>"; };
+		04E380AB2C0AE86A00AB7CFB /* LearnButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				04E380A52C09A09200AB7CFB /* ScrollViewBootcamp.swift */,
 				04E380A72C09CC4900AB7CFB /* SafeView.swift */,
 				04E380A92C09D3DB00AB7CFB /* LearnGridView.swift */,
+				04E380AB2C0AE86A00AB7CFB /* LearnButtonView.swift */,
 				04E380892C08070600AB7CFB /* Assets.xcassets */,
 				04E3808B2C08070600AB7CFB /* Preview Content */,
 			);
@@ -177,6 +180,7 @@
 				04E380A82C09CC4900AB7CFB /* SafeView.swift in Sources */,
 				04E380942C0807AA00AB7CFB /* TextView.swift in Sources */,
 				04E380882C08070400AB7CFB /* Item.swift in Sources */,
+				04E380AC2C0AE86A00AB7CFB /* LearnButtonView.swift in Sources */,
 				04E380A62C09A09200AB7CFB /* ScrollViewBootcamp.swift in Sources */,
 				04E380842C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_CodeApp.swift in Sources */,
 				04E380982C080A9200AB7CFB /* GradientsView.swift in Sources */,
