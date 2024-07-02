@@ -12,7 +12,7 @@ struct ConditionalBootcamp: View {
     
     var body: some View {
         
-        Button("Circle Button: \(showCircle)") {
+        Button("Circle Button: \(showCircle.description)") {
             showCircle = !showCircle
         }
         
