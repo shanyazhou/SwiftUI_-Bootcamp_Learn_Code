@@ -25,7 +25,8 @@ struct SwiftUI_Bootcamp_Learn_CodeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            SwiftCallSwiftUI(vc: ViewControllerA(), title: "123")
         }
         .modelContainer(sharedModelContainer)
     }

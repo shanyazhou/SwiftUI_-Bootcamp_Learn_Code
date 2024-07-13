@@ -15,7 +15,7 @@ struct ToggleBootcamp: View {
         
         VStack {
             
-            Text("按钮状态：\(toggleState)")
+            Text("按钮状态：\(String(toggleState))")
                 .font(.largeTitle)
             
             Toggle(isOn: $toggleState, label: {
