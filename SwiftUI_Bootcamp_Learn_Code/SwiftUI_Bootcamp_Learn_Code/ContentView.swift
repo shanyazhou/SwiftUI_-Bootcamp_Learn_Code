@@ -16,6 +16,7 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
+            
             Image("dinner")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
@@ -43,6 +44,8 @@ struct ContentView: View {
                 .background(.gray)//背景颜色
                 
         }
+        
+        .navigationTitle("小例子")
     }
 }
 
