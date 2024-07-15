@@ -12,6 +12,7 @@ struct SliderBootcamp: View {
     @State var sliderValue1: CGFloat = 0.0
     @State var sliderValue2: CGFloat = 0.0
     @State var sliderValue3: CGFloat = 50.0
+    @State var sliderValue4: CGFloat = 50.0
     
     @State var myColor: Color = .red
     
@@ -43,31 +44,41 @@ struct SliderBootcamp: View {
             }
             
             // 使用颜色插值从黑色到白色
+            Text("滑动控制颜色变化")
             Color(white: sliderValue1)
-                .frame(width: 150, height: 150)
-                .animation(.easeInOut(duration: 2))
+                .frame(width: 100, height: 100)
                 .cornerRadius(20)
             
-            //自动变化颜色
+            //滑动控制颜色变化
+            Text("滑动控制颜色变化")
             Rectangle()
                 .fill(Color(hue: sliderValue1, saturation: 1.0, brightness: 1.0))
-                .frame(width: 150, height: 150)
-                .onAppear {
-                    withAnimation(Animation.linear(duration: 10).repeatForever(autoreverses: true)) {
-                        self.sliderValue1 = 0.33
-                    }
-                }
-                .cornerRadius(20)
-            
-            Rectangle()
-                .fill(Color(hue: sliderValue1, saturation: 1.0, brightness: 1.0))
-                .frame(width: 150, height: 150)
-                .animation(.easeInOut, value: sliderValue1) // 添加动画效果, 使过渡更平滑
+                .frame(width: 100, height: 100)
                 .cornerRadius(20)
             
             Slider(value: $sliderValue1, in: 0...1)
                 .padding()
                 .accentColor(Color(hue: sliderValue1, saturation: 1.0, brightness: 1.0))//颜色渐变
+            Spacer()
+            
+            //自动变化颜色
+            Text("自动颜色变化")
+            Rectangle()
+                .fill(Color(hue: sliderValue4, saturation: 1.0, brightness: 1.0))
+                .frame(width: 100, height: 100)
+                .cornerRadius(20)
+            
+        }
+        
+        .onAppear {
+            Timer.scheduledTimer(withTimeInterval: 0.08, repeats: true) { _ in // 你也可以调节时间间隔
+                withAnimation(Animation.linear(duration: 0.01)) { //确保颜色变化动画是线性的
+                    self.sliderValue4 += 0.01
+                    if self.sliderValue4 > 1.0 {
+                        self.sliderValue4 = 0.0 // 重置以继续循环
+                    }
+                }
+            }
         }
     }
 }
