@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		042B9A1E2C41235600A2775D /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B9A1D2C41235600A2775D /* ViewControllerA.swift */; };
+		04607AF52C4749C800B55034 /* DarkModeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04607AF42C4749C800B55034 /* DarkModeBootcamp.swift */; };
+		04607AF72C47551400B55034 /* OnAppearBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04607AF62C47551400B55034 /* OnAppearBootcamp.swift */; };
+		04607AF92C475E0700B55034 /* TapGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04607AF82C475E0600B55034 /* TapGestureBootcamp.swift */; };
+		04607AFB2C4767C100B55034 /* ModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04607AFA2C4767C100B55034 /* ModelBootcamp.swift */; };
 		047081F12C2FE24000156465 /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047081F02C2FE24000156465 /* BindingBootcamp.swift */; };
 		047E59852C42206900EE672F /* SliderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E59842C42206900EE672F /* SliderBootcamp.swift */; };
 		047E59872C423A6A00EE672F /* TabViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E59862C423A6A00EE672F /* TabViewBootcamp.swift */; };
@@ -56,6 +60,10 @@
 
 /* Begin PBXFileReference section */
 		042B9A1D2C41235600A2775D /* ViewControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
+		04607AF42C4749C800B55034 /* DarkModeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBootcamp.swift; sourceTree = "<group>"; };
+		04607AF62C47551400B55034 /* OnAppearBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBootcamp.swift; sourceTree = "<group>"; };
+		04607AF82C475E0600B55034 /* TapGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureBootcamp.swift; sourceTree = "<group>"; };
+		04607AFA2C4767C100B55034 /* ModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootcamp.swift; sourceTree = "<group>"; };
 		047081F02C2FE24000156465 /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 		047E59842C42206900EE672F /* SliderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBootcamp.swift; sourceTree = "<group>"; };
 		047E59862C423A6A00EE672F /* TabViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBootcamp.swift; sourceTree = "<group>"; };
@@ -183,6 +191,10 @@
 				047E59842C42206900EE672F /* SliderBootcamp.swift */,
 				047E59862C423A6A00EE672F /* TabViewBootcamp.swift */,
 				047E59882C44B0FD00EE672F /* HomeListView.swift */,
+				04607AF42C4749C800B55034 /* DarkModeBootcamp.swift */,
+				04607AF62C47551400B55034 /* OnAppearBootcamp.swift */,
+				04607AF82C475E0600B55034 /* TapGestureBootcamp.swift */,
+				04607AFA2C4767C100B55034 /* ModelBootcamp.swift */,
 				04BDD0A52C40F9780034FC1A /* SwiftAndSwiftUI */,
 				04E380892C08070600AB7CFB /* Assets.xcassets */,
 				04E3808B2C08070600AB7CFB /* Preview Content */,
@@ -288,15 +300,18 @@
 				048488612C37C1AD00B9CD10 /* TextfieldBootcamp.swift in Sources */,
 				048488652C3B83EB00B9CD10 /* ToggleBootcamp.swift in Sources */,
 				047E59872C423A6A00EE672F /* TabViewBootcamp.swift in Sources */,
+				04607AFB2C4767C100B55034 /* ModelBootcamp.swift in Sources */,
 				042B9A1E2C41235600A2775D /* ViewControllerA.swift in Sources */,
 				04AD18502C32B43600B9AC78 /* SheetsBootcamp.swift in Sources */,
 				04DFA2872C41249B00DE210D /* SwiftUIViewB.swift in Sources */,
 				048488632C3B74D400B9CD10 /* TextEditorBootcamp.swift in Sources */,
 				04E380842C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_CodeApp.swift in Sources */,
 				048488692C3BBFF400B9CD10 /* ColorPickerBootcamp.swift in Sources */,
+				04607AF92C475E0700B55034 /* TapGestureBootcamp.swift in Sources */,
 				0484886D2C3BD54900B9CD10 /* StepperBootcamp.swift in Sources */,
 				04DFA2832C41075800DE210D /* NavigationViewController.swift in Sources */,
 				04DFA2852C41083700DE210D /* SwiftCallSwiftUI.swift in Sources */,
+				04607AF52C4749C800B55034 /* DarkModeBootcamp.swift in Sources */,
 				04E380982C080A9200AB7CFB /* GradientsView.swift in Sources */,
 				04E3809C2C08297200AB7CFB /* FrameView.swift in Sources */,
 				04E380A22C09735000AB7CFB /* SpacerView.swift in Sources */,
@@ -305,6 +320,7 @@
 				04E5A0D82C3143D700218561 /* AnimationBootcamp.swift in Sources */,
 				04AD18542C33D16100B9AC78 /* ListBootcamp.swift in Sources */,
 				04BDD0A72C40FA130034FC1A /* Swift_ActivityIndicator.swift in Sources */,
+				04607AF72C47551400B55034 /* OnAppearBootcamp.swift in Sources */,
 				04BDD0A92C40FA3F0034FC1A /* SwiftUI_ContentView.swift in Sources */,
 				04E5A0D62C3134C700218561 /* ConditionalBootcamp.swift in Sources */,
 				047081F12C2FE24000156465 /* BindingBootcamp.swift in Sources */,

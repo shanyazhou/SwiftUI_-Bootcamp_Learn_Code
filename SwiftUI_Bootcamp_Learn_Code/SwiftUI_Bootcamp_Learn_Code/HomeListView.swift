@@ -169,6 +169,26 @@ struct HomeListView: View {
                             .toolbar(.hidden, for: .tabBar)
                     }
                     
+                    NavigationLink("DarkModeBootcamp") {
+                        DarkModeBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    NavigationLink("OnAppearBootcamp") {
+                        OnAppearBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    NavigationLink("TapGestureBootcamp") {
+                        TapGestureBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    NavigationLink("ModelBootcamp") {
+                        ModelBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
                 } header: {
                     HStack{
                         Text("示例集合")
