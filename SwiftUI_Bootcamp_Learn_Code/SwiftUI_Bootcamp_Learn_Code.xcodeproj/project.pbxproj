@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		042B9A1E2C41235600A2775D /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B9A1D2C41235600A2775D /* ViewControllerA.swift */; };
+		045DD4872C49F1AD008E119C /* ViewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD4862C49F1AD008E119C /* ViewModelBootcamp.swift */; };
+		045DD4892C49F7CD008E119C /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD4882C49F7CD008E119C /* Color+extension.swift */; };
 		04607AF52C4749C800B55034 /* DarkModeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04607AF42C4749C800B55034 /* DarkModeBootcamp.swift */; };
 		04607AF72C47551400B55034 /* OnAppearBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04607AF62C47551400B55034 /* OnAppearBootcamp.swift */; };
 		04607AF92C475E0700B55034 /* TapGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04607AF82C475E0600B55034 /* TapGestureBootcamp.swift */; };
@@ -60,6 +62,8 @@
 
 /* Begin PBXFileReference section */
 		042B9A1D2C41235600A2775D /* ViewControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
+		045DD4862C49F1AD008E119C /* ViewModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBootcamp.swift; sourceTree = "<group>"; };
+		045DD4882C49F7CD008E119C /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
 		04607AF42C4749C800B55034 /* DarkModeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBootcamp.swift; sourceTree = "<group>"; };
 		04607AF62C47551400B55034 /* OnAppearBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBootcamp.swift; sourceTree = "<group>"; };
 		04607AF82C475E0600B55034 /* TapGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureBootcamp.swift; sourceTree = "<group>"; };
@@ -195,6 +199,8 @@
 				04607AF62C47551400B55034 /* OnAppearBootcamp.swift */,
 				04607AF82C475E0600B55034 /* TapGestureBootcamp.swift */,
 				04607AFA2C4767C100B55034 /* ModelBootcamp.swift */,
+				045DD4862C49F1AD008E119C /* ViewModelBootcamp.swift */,
+				045DD4882C49F7CD008E119C /* Color+extension.swift */,
 				04BDD0A52C40F9780034FC1A /* SwiftAndSwiftUI */,
 				04E380892C08070600AB7CFB /* Assets.xcassets */,
 				04E3808B2C08070600AB7CFB /* Preview Content */,
@@ -299,9 +305,11 @@
 				04E5A0DA2C315D6A00218561 /* TransitionBootcamp.swift in Sources */,
 				048488612C37C1AD00B9CD10 /* TextfieldBootcamp.swift in Sources */,
 				048488652C3B83EB00B9CD10 /* ToggleBootcamp.swift in Sources */,
+				045DD4872C49F1AD008E119C /* ViewModelBootcamp.swift in Sources */,
 				047E59872C423A6A00EE672F /* TabViewBootcamp.swift in Sources */,
 				04607AFB2C4767C100B55034 /* ModelBootcamp.swift in Sources */,
 				042B9A1E2C41235600A2775D /* ViewControllerA.swift in Sources */,
+				045DD4892C49F7CD008E119C /* Color+extension.swift in Sources */,
 				04AD18502C32B43600B9AC78 /* SheetsBootcamp.swift in Sources */,
 				04DFA2872C41249B00DE210D /* SwiftUIViewB.swift in Sources */,
 				048488632C3B74D400B9CD10 /* TextEditorBootcamp.swift in Sources */,

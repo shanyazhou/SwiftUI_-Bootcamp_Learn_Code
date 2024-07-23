@@ -189,6 +189,11 @@ struct HomeListView: View {
                             .toolbar(.hidden, for: .tabBar)
                     }
                     
+                    NavigationLink("ViewModelBootcamp") {
+                        ViewModelBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
                 } header: {
                     HStack{
                         Text("示例集合")
