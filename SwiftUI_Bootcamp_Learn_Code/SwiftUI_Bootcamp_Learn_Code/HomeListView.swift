@@ -228,6 +228,44 @@ struct HomeListView: View {
                         BadgesBootcamp()
                             .toolbar(.hidden, for: .tabBar)
                     }
+                    
+                    NavigationLink("NavigationStackBootcamp") {
+                        NavigationStackBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    NavigationLink("ToolbarBootcamp") {
+                        ToolbarBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    NavigationLink("ResizableSheetBootcamp") {
+                        ResizableSheetBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    NavigationLink("SafeAreaInsetBootcamp") {
+                        SafeAreaInsetBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    NavigationLink("GroupBootcamp") {
+                        GroupBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    NavigationLink("AnimationUpdateBootcamp") {
+                        AnimationUpdateBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    
+                    NavigationLink("MenuBootcamp") {
+                        MenuBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    
                 } header: {
                     HStack{
                         Text("示例集合")
@@ -238,7 +276,7 @@ struct HomeListView: View {
                 }
             }
         }
-        .accentColor(.red)
+//        .accentColor(.red)
     }
 }
 

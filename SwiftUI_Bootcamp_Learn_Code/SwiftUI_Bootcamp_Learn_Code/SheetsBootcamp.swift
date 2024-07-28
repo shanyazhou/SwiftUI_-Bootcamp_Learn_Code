@@ -30,7 +30,7 @@ struct SheetsBootcamp: View {
             
 //            ///pop出下一个view
 //            .sheet(isPresented: $isPresented, content: {
-//                NextSheetsBootcamp()
+//                NextSheetsBootcamp(isPresented: $isPresented)
 //            })
             
             
