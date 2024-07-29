@@ -74,6 +74,11 @@ struct HomeListView: View {
                             .toolbar(.hidden, for: .tabBar)
                     }
                     
+                    NavigationLink("GridBootcamp") {
+                        GridBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
                     NavigationLink("LearnButtonView") {
                         LearnButtonView()
                             .toolbar(.hidden, for: .tabBar)
@@ -291,7 +296,15 @@ struct HomeListView: View {
                             .toolbar(.hidden, for: .tabBar)
                     }
                     
+                    NavigationLink("NavigationSplitViewBootcamp") {
+                        NavigationSplitViewBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
                     
+                    NavigationLink("GridViewBootcamp") {
+                        GridViewBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
                     
                     
                 } header: {

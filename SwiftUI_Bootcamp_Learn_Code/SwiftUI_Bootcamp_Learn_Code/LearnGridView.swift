@@ -35,7 +35,7 @@ struct LearnGridView: View {
                 //居中
                 alignment: .center,
                 //上下间距，即行间距，默认是6
-                spacing: 1,
+                spacing: 10,
                 //.sectionHeaders：头，划过去不消失，还在前面显示
                 pinnedViews: [.sectionHeaders],
                 
