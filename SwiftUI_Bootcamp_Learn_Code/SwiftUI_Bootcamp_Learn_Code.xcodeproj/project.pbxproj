@@ -41,6 +41,8 @@
 		04B467ED2C5720300063D494 /* NativePopoverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B467EC2C5720300063D494 /* NativePopoverBootcamp.swift */; };
 		04B467EF2C5721DF0063D494 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B467EE2C5721DF0063D494 /* ShapesBootcamp.swift */; };
 		04B467F32C5724BB0063D494 /* ExtractSubViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B467F22C5724BB0063D494 /* ExtractSubViewBootcamp.swift */; };
+		04B467F52C5747CA0063D494 /* AnyLayoutBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B467F42C5747CA0063D494 /* AnyLayoutBootcamp.swift */; };
+		04B467F72C57677E0063D494 /* ViewThatFitsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B467F62C57677E0063D494 /* ViewThatFitsBootcamp.swift */; };
 		04BDD0A72C40FA130034FC1A /* Swift_ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDD0A62C40FA130034FC1A /* Swift_ActivityIndicator.swift */; };
 		04BDD0A92C40FA3F0034FC1A /* SwiftUI_ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDD0A82C40FA3F0034FC1A /* SwiftUI_ContentView.swift */; };
 		04DFA27D2C41010000DE210D /* UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFA27C2C41010000DE210D /* UIViewRepresentable.swift */; };
@@ -112,6 +114,8 @@
 		04B467EC2C5720300063D494 /* NativePopoverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePopoverBootcamp.swift; sourceTree = "<group>"; };
 		04B467EE2C5721DF0063D494 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		04B467F22C5724BB0063D494 /* ExtractSubViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubViewBootcamp.swift; sourceTree = "<group>"; };
+		04B467F42C5747CA0063D494 /* AnyLayoutBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutBootcamp.swift; sourceTree = "<group>"; };
+		04B467F62C57677E0063D494 /* ViewThatFitsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsBootcamp.swift; sourceTree = "<group>"; };
 		04BDD0A62C40FA130034FC1A /* Swift_ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ActivityIndicator.swift; sourceTree = "<group>"; };
 		04BDD0A82C40FA3F0034FC1A /* SwiftUI_ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ContentView.swift; sourceTree = "<group>"; };
 		04DFA27C2C41010000DE210D /* UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentable.swift; sourceTree = "<group>"; };
@@ -251,6 +255,8 @@
 				04EA87E62C5664540019B7DD /* AnimationUpdateBootcamp.swift */,
 				04EA87E82C5669E70019B7DD /* MenuBootcamp.swift */,
 				04B467EC2C5720300063D494 /* NativePopoverBootcamp.swift */,
+				04B467F42C5747CA0063D494 /* AnyLayoutBootcamp.swift */,
+				04B467F62C57677E0063D494 /* ViewThatFitsBootcamp.swift */,
 				045DD4882C49F7CD008E119C /* Color+extension.swift */,
 				04BDD0A52C40F9780034FC1A /* SwiftAndSwiftUI */,
 				04E380892C08070600AB7CFB /* Assets.xcassets */,
@@ -385,12 +391,14 @@
 				04DFA2852C41083700DE210D /* SwiftCallSwiftUI.swift in Sources */,
 				04607AF52C4749C800B55034 /* DarkModeBootcamp.swift in Sources */,
 				04E380982C080A9200AB7CFB /* GradientsView.swift in Sources */,
+				04B467F72C57677E0063D494 /* ViewThatFitsBootcamp.swift in Sources */,
 				04E3809C2C08297200AB7CFB /* FrameView.swift in Sources */,
 				04E380A22C09735000AB7CFB /* SpacerView.swift in Sources */,
 				047E59852C42206900EE672F /* SliderBootcamp.swift in Sources */,
 				048488672C3B941A00B9CD10 /* PickerBootcamp.swift in Sources */,
 				04E5A0D82C3143D700218561 /* AnimationBootcamp.swift in Sources */,
 				04EA87E72C5664540019B7DD /* AnimationUpdateBootcamp.swift in Sources */,
+				04B467F52C5747CA0063D494 /* AnyLayoutBootcamp.swift in Sources */,
 				04AD18542C33D16100B9AC78 /* ListBootcamp.swift in Sources */,
 				04BDD0A72C40FA130034FC1A /* Swift_ActivityIndicator.swift in Sources */,
 				04607AF72C47551400B55034 /* OnAppearBootcamp.swift in Sources */,

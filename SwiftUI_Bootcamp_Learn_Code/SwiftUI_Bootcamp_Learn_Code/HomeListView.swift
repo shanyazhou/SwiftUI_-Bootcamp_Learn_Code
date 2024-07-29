@@ -275,6 +275,24 @@ struct HomeListView: View {
                             .toolbar(.hidden, for: .tabBar)
                     }
                     
+                    NavigationLink("NativePopoverBootcamp") {
+                        NativePopoverBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    NavigationLink("AnyLayoutBootcamp") {
+                        AnyLayoutBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    
+                    NavigationLink("ViewThatFitsBootcamp") {
+                        ViewThatFitsBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    
+                    
                     
                 } header: {
                     HStack{
