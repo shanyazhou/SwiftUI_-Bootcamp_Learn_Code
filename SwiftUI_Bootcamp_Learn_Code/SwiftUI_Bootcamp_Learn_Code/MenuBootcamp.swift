@@ -9,23 +9,65 @@ import SwiftUI
 
 struct MenuBootcamp: View {
     var body: some View {
-        Menu("Click Me") {
-            Button("1"){
+        VStack(spacing: 50){
+            Menu("Click Me") {
+                Button("1"){
+                    
+                }
                 
+                Button("2"){
+                    
+                }
+                
+                Button("3"){
+                    
+                }
+                
+                Button("4"){
+                    
+                }
             }
             
-            Button("2"){
+            Menu("Click Me") {
                 
-            }
-            
-            Button("3"){
+                ControlGroup("group"){
+                    Button("1"){
+                        
+                    }
+                    
+                    Button("2"){
+                        
+                    }
+                    
+                    Button("3"){
+                        
+                    }
+                }
                 
-            }
-            
-            Button("4"){
                 
+                Button("4"){
+                    
+                }
+                
+                Menu("Click Me") {
+                    
+                    ControlGroup("group2"){
+                        Button("1"){
+                            
+                        }
+                        
+                        Button("2"){
+                            
+                        }
+                        
+                        Button("3"){
+                            
+                        }
+                    }
+                }
             }
         }
+        
     }
 }
 

@@ -46,6 +46,9 @@
 		04B467F92C576CA20063D494 /* NavigationSplitViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B467F82C576CA20063D494 /* NavigationSplitViewBootcamp.swift */; };
 		04B467FB2C577AB10063D494 /* GridViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B467FA2C577AB10063D494 /* GridViewBootcamp.swift */; };
 		04B467FD2C577EC70063D494 /* GridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B467FC2C577EC70063D494 /* GridBootcamp.swift */; };
+		04B467FF2C5796930063D494 /* ContentUnavailableViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B467FE2C5796930063D494 /* ContentUnavailableViewBootcamp.swift */; };
+		04B468012C579EFC0063D494 /* ObservableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B468002C579EFC0063D494 /* ObservableBootcamp.swift */; };
+		04B468032C57A3A20063D494 /* ObservableBootcampIOS17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B468022C57A3A20063D494 /* ObservableBootcampIOS17.swift */; };
 		04BDD0A72C40FA130034FC1A /* Swift_ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDD0A62C40FA130034FC1A /* Swift_ActivityIndicator.swift */; };
 		04BDD0A92C40FA3F0034FC1A /* SwiftUI_ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDD0A82C40FA3F0034FC1A /* SwiftUI_ContentView.swift */; };
 		04DFA27D2C41010000DE210D /* UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFA27C2C41010000DE210D /* UIViewRepresentable.swift */; };
@@ -122,6 +125,9 @@
 		04B467F82C576CA20063D494 /* NavigationSplitViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewBootcamp.swift; sourceTree = "<group>"; };
 		04B467FA2C577AB10063D494 /* GridViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewBootcamp.swift; sourceTree = "<group>"; };
 		04B467FC2C577EC70063D494 /* GridBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBootcamp.swift; sourceTree = "<group>"; };
+		04B467FE2C5796930063D494 /* ContentUnavailableViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViewBootcamp.swift; sourceTree = "<group>"; };
+		04B468002C579EFC0063D494 /* ObservableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableBootcamp.swift; sourceTree = "<group>"; };
+		04B468022C57A3A20063D494 /* ObservableBootcampIOS17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableBootcampIOS17.swift; sourceTree = "<group>"; };
 		04BDD0A62C40FA130034FC1A /* Swift_ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ActivityIndicator.swift; sourceTree = "<group>"; };
 		04BDD0A82C40FA3F0034FC1A /* SwiftUI_ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ContentView.swift; sourceTree = "<group>"; };
 		04DFA27C2C41010000DE210D /* UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentable.swift; sourceTree = "<group>"; };
@@ -266,6 +272,9 @@
 				04B467F62C57677E0063D494 /* ViewThatFitsBootcamp.swift */,
 				04B467F82C576CA20063D494 /* NavigationSplitViewBootcamp.swift */,
 				04B467FA2C577AB10063D494 /* GridViewBootcamp.swift */,
+				04B467FE2C5796930063D494 /* ContentUnavailableViewBootcamp.swift */,
+				04B468002C579EFC0063D494 /* ObservableBootcamp.swift */,
+				04B468022C57A3A20063D494 /* ObservableBootcampIOS17.swift */,
 				045DD4882C49F7CD008E119C /* Color+extension.swift */,
 				04BDD0A52C40F9780034FC1A /* SwiftAndSwiftUI */,
 				04E380892C08070600AB7CFB /* Assets.xcassets */,
@@ -374,6 +383,7 @@
 				04E380AC2C0AE86A00AB7CFB /* LearnButtonView.swift in Sources */,
 				0484885F2C37846700B9CD10 /* ContextMenuBootcamp.swift in Sources */,
 				04E380A62C09A09200AB7CFB /* ScrollViewBootcamp.swift in Sources */,
+				04B467FF2C5796930063D494 /* ContentUnavailableViewBootcamp.swift in Sources */,
 				04E5A0DA2C315D6A00218561 /* TransitionBootcamp.swift in Sources */,
 				048488612C37C1AD00B9CD10 /* TextfieldBootcamp.swift in Sources */,
 				048488652C3B83EB00B9CD10 /* ToggleBootcamp.swift in Sources */,
@@ -386,6 +396,7 @@
 				042B9A1E2C41235600A2775D /* ViewControllerA.swift in Sources */,
 				045DD4892C49F7CD008E119C /* Color+extension.swift in Sources */,
 				04AD18502C32B43600B9AC78 /* SheetsBootcamp.swift in Sources */,
+				04B468012C579EFC0063D494 /* ObservableBootcamp.swift in Sources */,
 				04DFA2872C41249B00DE210D /* SwiftUIViewB.swift in Sources */,
 				048488632C3B74D400B9CD10 /* TextEditorBootcamp.swift in Sources */,
 				04EA87DF2C560FB40019B7DD /* ToolbarBootcamp.swift in Sources */,
@@ -409,6 +420,7 @@
 				047E59852C42206900EE672F /* SliderBootcamp.swift in Sources */,
 				048488672C3B941A00B9CD10 /* PickerBootcamp.swift in Sources */,
 				04E5A0D82C3143D700218561 /* AnimationBootcamp.swift in Sources */,
+				04B468032C57A3A20063D494 /* ObservableBootcampIOS17.swift in Sources */,
 				04EA87E72C5664540019B7DD /* AnimationUpdateBootcamp.swift in Sources */,
 				04B467F52C5747CA0063D494 /* AnyLayoutBootcamp.swift in Sources */,
 				04AD18542C33D16100B9AC78 /* ListBootcamp.swift in Sources */,
