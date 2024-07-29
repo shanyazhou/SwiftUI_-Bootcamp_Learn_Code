@@ -38,6 +38,9 @@
 		04AD18542C33D16100B9AC78 /* ListBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD18532C33D16100B9AC78 /* ListBootcamp.swift */; };
 		04AD18562C33EE6100B9AC78 /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD18552C33EE6100B9AC78 /* AlertBootcamp.swift */; };
 		04AD185A2C353E6100B9AC78 /* ActionsheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD18592C353E6100B9AC78 /* ActionsheetBootcamp.swift */; };
+		04B467ED2C5720300063D494 /* NativePopoverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B467EC2C5720300063D494 /* NativePopoverBootcamp.swift */; };
+		04B467EF2C5721DF0063D494 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B467EE2C5721DF0063D494 /* ShapesBootcamp.swift */; };
+		04B467F32C5724BB0063D494 /* ExtractSubViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B467F22C5724BB0063D494 /* ExtractSubViewBootcamp.swift */; };
 		04BDD0A72C40FA130034FC1A /* Swift_ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDD0A62C40FA130034FC1A /* Swift_ActivityIndicator.swift */; };
 		04BDD0A92C40FA3F0034FC1A /* SwiftUI_ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDD0A82C40FA3F0034FC1A /* SwiftUI_ContentView.swift */; };
 		04DFA27D2C41010000DE210D /* UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFA27C2C41010000DE210D /* UIViewRepresentable.swift */; };
@@ -106,6 +109,9 @@
 		04AD18532C33D16100B9AC78 /* ListBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBootcamp.swift; sourceTree = "<group>"; };
 		04AD18552C33EE6100B9AC78 /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
 		04AD18592C353E6100B9AC78 /* ActionsheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsheetBootcamp.swift; sourceTree = "<group>"; };
+		04B467EC2C5720300063D494 /* NativePopoverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePopoverBootcamp.swift; sourceTree = "<group>"; };
+		04B467EE2C5721DF0063D494 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
+		04B467F22C5724BB0063D494 /* ExtractSubViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubViewBootcamp.swift; sourceTree = "<group>"; };
 		04BDD0A62C40FA130034FC1A /* Swift_ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ActivityIndicator.swift; sourceTree = "<group>"; };
 		04BDD0A82C40FA3F0034FC1A /* SwiftUI_ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ContentView.swift; sourceTree = "<group>"; };
 		04DFA27C2C41010000DE210D /* UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentable.swift; sourceTree = "<group>"; };
@@ -189,8 +195,10 @@
 		04E380822C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_Code */ = {
 			isa = PBXGroup;
 			children = (
+				047E59882C44B0FD00EE672F /* HomeListView.swift */,
 				04E380832C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_CodeApp.swift */,
 				04E380852C08070400AB7CFB /* ContentView.swift */,
+				04B467EE2C5721DF0063D494 /* ShapesBootcamp.swift */,
 				04E380932C0807AA00AB7CFB /* TextView.swift */,
 				04E380952C08081E00AB7CFB /* ColorView.swift */,
 				04E380972C080A9200AB7CFB /* GradientsView.swift */,
@@ -203,6 +211,7 @@
 				04E380A72C09CC4900AB7CFB /* SafeView.swift */,
 				04E380A92C09D3DB00AB7CFB /* LearnGridView.swift */,
 				04E380AB2C0AE86A00AB7CFB /* LearnButtonView.swift */,
+				04B467F22C5724BB0063D494 /* ExtractSubViewBootcamp.swift */,
 				047081F02C2FE24000156465 /* BindingBootcamp.swift */,
 				04E5A0D52C3134C700218561 /* ConditionalBootcamp.swift */,
 				04E5A0D72C3143D700218561 /* AnimationBootcamp.swift */,
@@ -222,7 +231,6 @@
 				0484886C2C3BD54900B9CD10 /* StepperBootcamp.swift */,
 				047E59842C42206900EE672F /* SliderBootcamp.swift */,
 				047E59862C423A6A00EE672F /* TabViewBootcamp.swift */,
-				047E59882C44B0FD00EE672F /* HomeListView.swift */,
 				04607AF42C4749C800B55034 /* DarkModeBootcamp.swift */,
 				04607AF62C47551400B55034 /* OnAppearBootcamp.swift */,
 				04607AF82C475E0600B55034 /* TapGestureBootcamp.swift */,
@@ -242,6 +250,7 @@
 				04EA87E42C5661090019B7DD /* GroupBootcamp.swift */,
 				04EA87E62C5664540019B7DD /* AnimationUpdateBootcamp.swift */,
 				04EA87E82C5669E70019B7DD /* MenuBootcamp.swift */,
+				04B467EC2C5720300063D494 /* NativePopoverBootcamp.swift */,
 				045DD4882C49F7CD008E119C /* Color+extension.swift */,
 				04BDD0A52C40F9780034FC1A /* SwiftAndSwiftUI */,
 				04E380892C08070600AB7CFB /* Assets.xcassets */,
@@ -328,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B467F32C5724BB0063D494 /* ExtractSubViewBootcamp.swift in Sources */,
 				04EA87E52C5661090019B7DD /* GroupBootcamp.swift in Sources */,
 				04E380AA2C09D3DB00AB7CFB /* LearnGridView.swift in Sources */,
 				04DFA27F2C41020F00DE210D /* SwiftUI_MyTextField.swift in Sources */,
@@ -353,6 +363,7 @@
 				048488652C3B83EB00B9CD10 /* ToggleBootcamp.swift in Sources */,
 				04EA87DD2C55EECA0019B7DD /* NavigationStackBootcamp.swift in Sources */,
 				045DD4872C49F1AD008E119C /* ViewModelBootcamp.swift in Sources */,
+				04B467EF2C5721DF0063D494 /* ShapesBootcamp.swift in Sources */,
 				047E59872C423A6A00EE672F /* TabViewBootcamp.swift in Sources */,
 				04607AFB2C4767C100B55034 /* ModelBootcamp.swift in Sources */,
 				04EA87E92C5669E70019B7DD /* MenuBootcamp.swift in Sources */,
@@ -389,6 +400,7 @@
 				04E380962C08081E00AB7CFB /* ColorView.swift in Sources */,
 				04DFA2812C41047700DE210D /* SegmentControl.swift in Sources */,
 				047E59892C44B0FD00EE672F /* HomeListView.swift in Sources */,
+				04B467ED2C5720300063D494 /* NativePopoverBootcamp.swift in Sources */,
 				0430353F2C4F5E0600E5A91A /* EnvironmentObjectBootcamp.swift in Sources */,
 				04EA87E12C56471F0019B7DD /* ResizableSheetBootcamp.swift in Sources */,
 			);

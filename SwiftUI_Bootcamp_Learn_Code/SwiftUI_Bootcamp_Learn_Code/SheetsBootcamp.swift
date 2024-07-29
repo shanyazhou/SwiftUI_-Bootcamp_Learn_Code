@@ -9,7 +9,10 @@ import SwiftUI
 
 struct SheetsBootcamp: View {
     
-    @State var isPresented: Bool = false
+    @State var isPresented1: Bool = false
+    @State var isPresented2: Bool = false
+    @State var isPresented3: Bool = false
+    @State var isPresented4: Bool = false
     
     var body: some View {
         
@@ -18,31 +21,63 @@ struct SheetsBootcamp: View {
             Color.green
                 .edgesIgnoringSafeArea(.all)//全部填充满
             
-            Button(action: {
-                isPresented.toggle()
-            }, label: {
-                Text("pop另外一个view")
-                    .foregroundColor(.green)
-                    .font(.headline)
-                    .padding(20)
-                    .background(Color.white.cornerRadius(5.0))
+            VStack{
+                Button(action: {
+                    isPresented1.toggle()
+                }, label: {
+                    Text(".sheet")
+                        .foregroundColor(.green)
+                        .font(.headline)
+                        .padding(20)
+                        .background(Color.white.cornerRadius(5.0))
+                })
+                
+                Button(action: {
+                    isPresented2.toggle()
+                }, label: {
+                    Text(".fullScreenCover")
+                        .foregroundColor(.green)
+                        .font(.headline)
+                        .padding(20)
+                        .background(Color.white.cornerRadius(5.0))
+                })
+                
+                Button(action: {
+                    isPresented3.toggle()
+                }, label: {
+                    Text("Transition")
+                        .foregroundColor(.green)
+                        .font(.headline)
+                        .padding(20)
+                        .background(Color.white.cornerRadius(5.0))
+                })
+                
+                Button(action: {
+                    isPresented4.toggle()
+                }, label: {
+                    Text("Animation")
+                        .foregroundColor(.green)
+                        .font(.headline)
+                        .padding(20)
+                        .background(Color.white.cornerRadius(5.0))
+                })
+            }
+            
+            ///pop出下一个view
+            .sheet(isPresented: $isPresented1, content: {
+                NextSheetsBootcamp(isPresented: $isPresented1)
             })
             
-//            ///pop出下一个view
-//            .sheet(isPresented: $isPresented, content: {
-//                NextSheetsBootcamp(isPresented: $isPresented)
-//            })
             
-            
-//            ///全屏出现
-//            .fullScreenCover(isPresented: $isPresented, content: {
-//                NextSheetsBootcamp()
-//            })
+            ///全屏出现
+            .fullScreenCover(isPresented: $isPresented2, content: {
+                NextSheetsBootcamp(isPresented: $isPresented2)
+            })
             
             ///方法二：Transition
             ZStack{
-                if isPresented {
-                    NextSheetsBootcamp(isPresented: $isPresented)
+                if isPresented3 {
+                    NextSheetsBootcamp(isPresented: $isPresented3)
                         .padding(.top, 100)
                         .transition(.move(edge: .bottom))
                         .animation(.spring)
@@ -53,9 +88,9 @@ struct SheetsBootcamp: View {
             
             
             ///方法三：Animation
-            NextSheetsBootcamp(isPresented: $isPresented)
+            NextSheetsBootcamp(isPresented: $isPresented4)
                 .padding(.top, 100)
-                .offset(y: isPresented ? 0 : UIScreen.main.bounds.height)
+                .offset(y: isPresented4 ? 0 : UIScreen.main.bounds.height)
                 .animation(.spring)
         }
     }
@@ -76,10 +111,10 @@ struct NextSheetsBootcamp: View {
             
             Button(action: {
                 ///点击按钮，关闭popView
-//                presentationMode.wrappedValue.dismiss()
+                presentationMode.wrappedValue.dismiss()
                 
                 ///方法二、三的关闭
-                isPresented.toggle()
+//                isPresented.toggle()
             }, label: {
                 Image(systemName: "xmark")
                     .foregroundColor(.white)

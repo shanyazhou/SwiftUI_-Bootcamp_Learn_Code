@@ -19,6 +19,11 @@ struct HomeListView: View {
                             .toolbar(.hidden, for: .tabBar)
                     }
                     
+                    NavigationLink("ShapesBootcamp") {
+                        ShapesBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
                     NavigationLink("Color") {
                         ColorView()
                             .toolbar(.hidden, for: .tabBar)
@@ -71,6 +76,11 @@ struct HomeListView: View {
                     
                     NavigationLink("LearnButtonView") {
                         LearnButtonView()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    NavigationLink("ExtractSubViewBootcamp") {
+                        ExtractSubViewBootcamp()
                             .toolbar(.hidden, for: .tabBar)
                     }
                     
