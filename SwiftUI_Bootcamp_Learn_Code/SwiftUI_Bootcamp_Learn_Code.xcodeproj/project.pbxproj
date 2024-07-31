@@ -49,6 +49,7 @@
 		04B467FF2C5796930063D494 /* ContentUnavailableViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B467FE2C5796930063D494 /* ContentUnavailableViewBootcamp.swift */; };
 		04B468012C579EFC0063D494 /* ObservableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B468002C579EFC0063D494 /* ObservableBootcamp.swift */; };
 		04B468032C57A3A20063D494 /* ObservableBootcampIOS17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B468022C57A3A20063D494 /* ObservableBootcampIOS17.swift */; };
+		04B468062C59D0B90063D494 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B468052C59D0B90063D494 /* HomeView.swift */; };
 		04BDD0A72C40FA130034FC1A /* Swift_ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDD0A62C40FA130034FC1A /* Swift_ActivityIndicator.swift */; };
 		04BDD0A92C40FA3F0034FC1A /* SwiftUI_ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDD0A82C40FA3F0034FC1A /* SwiftUI_ContentView.swift */; };
 		04DFA27D2C41010000DE210D /* UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFA27C2C41010000DE210D /* UIViewRepresentable.swift */; };
@@ -128,6 +129,7 @@
 		04B467FE2C5796930063D494 /* ContentUnavailableViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViewBootcamp.swift; sourceTree = "<group>"; };
 		04B468002C579EFC0063D494 /* ObservableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableBootcamp.swift; sourceTree = "<group>"; };
 		04B468022C57A3A20063D494 /* ObservableBootcampIOS17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableBootcampIOS17.swift; sourceTree = "<group>"; };
+		04B468052C59D0B90063D494 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		04BDD0A62C40FA130034FC1A /* Swift_ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ActivityIndicator.swift; sourceTree = "<group>"; };
 		04BDD0A82C40FA3F0034FC1A /* SwiftUI_ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ContentView.swift; sourceTree = "<group>"; };
 		04DFA27C2C41010000DE210D /* UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentable.swift; sourceTree = "<group>"; };
@@ -176,39 +178,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04BDD0A52C40F9780034FC1A /* SwiftAndSwiftUI */ = {
+		0403D4A92C5A367900E8EE89 /* SwiftUIContinuedLearning */ = {
 			isa = PBXGroup;
 			children = (
-				04BDD0A62C40FA130034FC1A /* Swift_ActivityIndicator.swift */,
-				04BDD0A82C40FA3F0034FC1A /* SwiftUI_ContentView.swift */,
-				04DFA27C2C41010000DE210D /* UIViewRepresentable.swift */,
-				04DFA27E2C41020F00DE210D /* SwiftUI_MyTextField.swift */,
-				04DFA2802C41047700DE210D /* SegmentControl.swift */,
-				04DFA2822C41075800DE210D /* NavigationViewController.swift */,
-				04DFA2842C41083700DE210D /* SwiftCallSwiftUI.swift */,
-				042B9A1D2C41235600A2775D /* ViewControllerA.swift */,
-				04DFA2862C41249B00DE210D /* SwiftUIViewB.swift */,
 			);
-			path = SwiftAndSwiftUI;
+			path = SwiftUIContinuedLearning;
 			sourceTree = "<group>";
 		};
-		04E380772C08070400AB7CFB = {
-			isa = PBXGroup;
-			children = (
-				04E380822C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_Code */,
-				04E380812C08070400AB7CFB /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		04E380812C08070400AB7CFB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				04E380802C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_Code.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		04E380822C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_Code */ = {
+		04B468042C59D0640063D494 /* SwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
 				047E59882C44B0FD00EE672F /* HomeListView.swift */,
@@ -276,6 +253,48 @@
 				04B468002C579EFC0063D494 /* ObservableBootcamp.swift */,
 				04B468022C57A3A20063D494 /* ObservableBootcampIOS17.swift */,
 				045DD4882C49F7CD008E119C /* Color+extension.swift */,
+			);
+			path = SwiftUIBootcamp;
+			sourceTree = "<group>";
+		};
+		04BDD0A52C40F9780034FC1A /* SwiftAndSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				04BDD0A62C40FA130034FC1A /* Swift_ActivityIndicator.swift */,
+				04BDD0A82C40FA3F0034FC1A /* SwiftUI_ContentView.swift */,
+				04DFA27C2C41010000DE210D /* UIViewRepresentable.swift */,
+				04DFA27E2C41020F00DE210D /* SwiftUI_MyTextField.swift */,
+				04DFA2802C41047700DE210D /* SegmentControl.swift */,
+				04DFA2822C41075800DE210D /* NavigationViewController.swift */,
+				04DFA2842C41083700DE210D /* SwiftCallSwiftUI.swift */,
+				042B9A1D2C41235600A2775D /* ViewControllerA.swift */,
+				04DFA2862C41249B00DE210D /* SwiftUIViewB.swift */,
+			);
+			path = SwiftAndSwiftUI;
+			sourceTree = "<group>";
+		};
+		04E380772C08070400AB7CFB = {
+			isa = PBXGroup;
+			children = (
+				04E380822C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_Code */,
+				04E380812C08070400AB7CFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E380812C08070400AB7CFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E380802C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_Code.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E380822C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_Code */ = {
+			isa = PBXGroup;
+			children = (
+				04B468052C59D0B90063D494 /* HomeView.swift */,
+				04B468042C59D0640063D494 /* SwiftUIBootcamp */,
+				0403D4A92C5A367900E8EE89 /* SwiftUIContinuedLearning */,
 				04BDD0A52C40F9780034FC1A /* SwiftAndSwiftUI */,
 				04E380892C08070600AB7CFB /* Assets.xcassets */,
 				04E3808B2C08070600AB7CFB /* Preview Content */,
@@ -364,6 +383,7 @@
 				04B467F32C5724BB0063D494 /* ExtractSubViewBootcamp.swift in Sources */,
 				04B467FD2C577EC70063D494 /* GridBootcamp.swift in Sources */,
 				04EA87E52C5661090019B7DD /* GroupBootcamp.swift in Sources */,
+				04B468062C59D0B90063D494 /* HomeView.swift in Sources */,
 				04E380AA2C09D3DB00AB7CFB /* LearnGridView.swift in Sources */,
 				04DFA27F2C41020F00DE210D /* SwiftUI_MyTextField.swift in Sources */,
 				0430354B2C4FA17900E5A91A /* BadgesBootcamp.swift in Sources */,
