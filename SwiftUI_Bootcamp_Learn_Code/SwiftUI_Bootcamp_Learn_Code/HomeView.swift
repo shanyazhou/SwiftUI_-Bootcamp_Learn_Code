@@ -32,7 +32,7 @@ struct HomeView: View {
                 
                 Section {
                     NavigationLink("SwiftUI Continued Learning") {
-                        HomeListView()
+                        SwiftUIContinuedLearningList()
                     }
                 } header: {
                     Text("SwiftUI Continued Learning")

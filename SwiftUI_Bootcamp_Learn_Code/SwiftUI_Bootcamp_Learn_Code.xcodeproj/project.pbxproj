@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0403D4AB2C5A3A6F00E8EE89 /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D4AA2C5A3A6F00E8EE89 /* LongPressGestureBootcamp.swift */; };
+		0403D4AD2C5A554000E8EE89 /* SwiftUIContinuedLearningList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D4AC2C5A554000E8EE89 /* SwiftUIContinuedLearningList.swift */; };
 		042B9A1E2C41235600A2775D /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B9A1D2C41235600A2775D /* ViewControllerA.swift */; };
 		0430353F2C4F5E0600E5A91A /* EnvironmentObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430353E2C4F5E0600E5A91A /* EnvironmentObjectBootcamp.swift */; };
 		043035412C4F890900E5A91A /* AppStorageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043035402C4F890900E5A91A /* AppStorageBootcamp.swift */; };
@@ -87,6 +89,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0403D4AA2C5A3A6F00E8EE89 /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
+		0403D4AC2C5A554000E8EE89 /* SwiftUIContinuedLearningList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContinuedLearningList.swift; sourceTree = "<group>"; };
 		042B9A1D2C41235600A2775D /* ViewControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
 		0430353E2C4F5E0600E5A91A /* EnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
 		043035402C4F890900E5A91A /* AppStorageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBootcamp.swift; sourceTree = "<group>"; };
@@ -181,6 +185,8 @@
 		0403D4A92C5A367900E8EE89 /* SwiftUIContinuedLearning */ = {
 			isa = PBXGroup;
 			children = (
+				0403D4AC2C5A554000E8EE89 /* SwiftUIContinuedLearningList.swift */,
+				0403D4AA2C5A3A6F00E8EE89 /* LongPressGestureBootcamp.swift */,
 			);
 			path = SwiftUIContinuedLearning;
 			sourceTree = "<group>";
@@ -405,6 +411,7 @@
 				04E380A62C09A09200AB7CFB /* ScrollViewBootcamp.swift in Sources */,
 				04B467FF2C5796930063D494 /* ContentUnavailableViewBootcamp.swift in Sources */,
 				04E5A0DA2C315D6A00218561 /* TransitionBootcamp.swift in Sources */,
+				0403D4AD2C5A554000E8EE89 /* SwiftUIContinuedLearningList.swift in Sources */,
 				048488612C37C1AD00B9CD10 /* TextfieldBootcamp.swift in Sources */,
 				048488652C3B83EB00B9CD10 /* ToggleBootcamp.swift in Sources */,
 				04EA87DD2C55EECA0019B7DD /* NavigationStackBootcamp.swift in Sources */,
@@ -442,6 +449,7 @@
 				04E5A0D82C3143D700218561 /* AnimationBootcamp.swift in Sources */,
 				04B468032C57A3A20063D494 /* ObservableBootcampIOS17.swift in Sources */,
 				04EA87E72C5664540019B7DD /* AnimationUpdateBootcamp.swift in Sources */,
+				0403D4AB2C5A3A6F00E8EE89 /* LongPressGestureBootcamp.swift in Sources */,
 				04B467F52C5747CA0063D494 /* AnyLayoutBootcamp.swift in Sources */,
 				04AD18542C33D16100B9AC78 /* ListBootcamp.swift in Sources */,
 				04BDD0A72C40FA130034FC1A /* Swift_ActivityIndicator.swift in Sources */,
