@@ -25,7 +25,7 @@ struct SwiftUI_Bootcamp_Learn_CodeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            HomeListView()
+            HomeView()
 //            SwiftCallSwiftUI(vc: ViewControllerA(), title: "123")
         }
         .modelContainer(sharedModelContainer)

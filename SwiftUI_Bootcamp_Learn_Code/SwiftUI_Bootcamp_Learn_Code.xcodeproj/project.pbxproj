@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0403D4AB2C5A3A6F00E8EE89 /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D4AA2C5A3A6F00E8EE89 /* LongPressGestureBootcamp.swift */; };
 		0403D4AD2C5A554000E8EE89 /* SwiftUIContinuedLearningList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D4AC2C5A554000E8EE89 /* SwiftUIContinuedLearningList.swift */; };
+		0403D4AF2C5A633200E8EE89 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D4AE2C5A633200E8EE89 /* MagnificationGestureBootcamp.swift */; };
 		042B9A1E2C41235600A2775D /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B9A1D2C41235600A2775D /* ViewControllerA.swift */; };
 		0430353F2C4F5E0600E5A91A /* EnvironmentObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430353E2C4F5E0600E5A91A /* EnvironmentObjectBootcamp.swift */; };
 		043035412C4F890900E5A91A /* AppStorageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043035402C4F890900E5A91A /* AppStorageBootcamp.swift */; };
@@ -91,6 +92,7 @@
 /* Begin PBXFileReference section */
 		0403D4AA2C5A3A6F00E8EE89 /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 		0403D4AC2C5A554000E8EE89 /* SwiftUIContinuedLearningList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContinuedLearningList.swift; sourceTree = "<group>"; };
+		0403D4AE2C5A633200E8EE89 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 		042B9A1D2C41235600A2775D /* ViewControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
 		0430353E2C4F5E0600E5A91A /* EnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
 		043035402C4F890900E5A91A /* AppStorageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBootcamp.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 			children = (
 				0403D4AC2C5A554000E8EE89 /* SwiftUIContinuedLearningList.swift */,
 				0403D4AA2C5A3A6F00E8EE89 /* LongPressGestureBootcamp.swift */,
+				0403D4AE2C5A633200E8EE89 /* MagnificationGestureBootcamp.swift */,
 			);
 			path = SwiftUIContinuedLearning;
 			sourceTree = "<group>";
@@ -195,7 +198,6 @@
 			isa = PBXGroup;
 			children = (
 				047E59882C44B0FD00EE672F /* HomeListView.swift */,
-				04E380832C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_CodeApp.swift */,
 				04E380852C08070400AB7CFB /* ContentView.swift */,
 				04B467EE2C5721DF0063D494 /* ShapesBootcamp.swift */,
 				04E380932C0807AA00AB7CFB /* TextView.swift */,
@@ -298,6 +300,7 @@
 		04E380822C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_Code */ = {
 			isa = PBXGroup;
 			children = (
+				04E380832C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_CodeApp.swift */,
 				04B468052C59D0B90063D494 /* HomeView.swift */,
 				04B468042C59D0640063D494 /* SwiftUIBootcamp */,
 				0403D4A92C5A367900E8EE89 /* SwiftUIContinuedLearning */,
@@ -422,6 +425,7 @@
 				04EA87E92C5669E70019B7DD /* MenuBootcamp.swift in Sources */,
 				042B9A1E2C41235600A2775D /* ViewControllerA.swift in Sources */,
 				045DD4892C49F7CD008E119C /* Color+extension.swift in Sources */,
+				0403D4AF2C5A633200E8EE89 /* MagnificationGestureBootcamp.swift in Sources */,
 				04AD18502C32B43600B9AC78 /* SheetsBootcamp.swift in Sources */,
 				04B468012C579EFC0063D494 /* ObservableBootcamp.swift in Sources */,
 				04DFA2872C41249B00DE210D /* SwiftUIViewB.swift in Sources */,
