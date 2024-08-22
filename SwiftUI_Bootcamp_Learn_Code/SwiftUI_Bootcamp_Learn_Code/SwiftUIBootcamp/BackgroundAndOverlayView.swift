@@ -113,6 +113,39 @@ struct BackgroundAndOverlayView: View {
     }
 }
 
+//SwiftUI 中的 overlay 修饰符是一个非常强大的工具，它允许你在视图的顶部放置另一个视图，从而实现复杂的层叠效果
+//有点像ZStack
+struct OverlayExample: View {
+    var body: some View {
+        Text("Hello, world!")
+            .padding()
+            .background(Color.blue)
+            .overlay(
+                Text("Overlay Text")
+                    .padding(5)
+                    .background(Color.white)
+                    .cornerRadius(5)
+                    .shadow(radius: 5),
+                alignment: .center
+            )
+    }
+}
+
+///两种不同的预览方法：
+//方法一：
+struct BackgroundAndOverlayView_Previews: PreviewProvider {
+    static var previews: some View {
+        Group {
+            BackgroundAndOverlayView()
+            OverlayExample()
+        }
+    }
+}
+
+//方法二：
 #Preview {
-    BackgroundAndOverlayView()
+    Group{
+        BackgroundAndOverlayView()
+        OverlayExample()
+    }
 }

@@ -55,6 +55,7 @@
 		04B468062C59D0B90063D494 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B468052C59D0B90063D494 /* HomeView.swift */; };
 		04BDD0A72C40FA130034FC1A /* Swift_ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDD0A62C40FA130034FC1A /* Swift_ActivityIndicator.swift */; };
 		04BDD0A92C40FA3F0034FC1A /* SwiftUI_ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDD0A82C40FA3F0034FC1A /* SwiftUI_ContentView.swift */; };
+		04DBA9882C5E4B0900494A5C /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBA9872C5E4B0900494A5C /* RotationGestureBootcamp.swift */; };
 		04DFA27D2C41010000DE210D /* UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFA27C2C41010000DE210D /* UIViewRepresentable.swift */; };
 		04DFA27F2C41020F00DE210D /* SwiftUI_MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFA27E2C41020F00DE210D /* SwiftUI_MyTextField.swift */; };
 		04DFA2812C41047700DE210D /* SegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFA2802C41047700DE210D /* SegmentControl.swift */; };
@@ -138,6 +139,7 @@
 		04B468052C59D0B90063D494 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		04BDD0A62C40FA130034FC1A /* Swift_ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ActivityIndicator.swift; sourceTree = "<group>"; };
 		04BDD0A82C40FA3F0034FC1A /* SwiftUI_ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ContentView.swift; sourceTree = "<group>"; };
+		04DBA9872C5E4B0900494A5C /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
 		04DFA27C2C41010000DE210D /* UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentable.swift; sourceTree = "<group>"; };
 		04DFA27E2C41020F00DE210D /* SwiftUI_MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MyTextField.swift; sourceTree = "<group>"; };
 		04DFA2802C41047700DE210D /* SegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControl.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				0403D4AC2C5A554000E8EE89 /* SwiftUIContinuedLearningList.swift */,
 				0403D4AA2C5A3A6F00E8EE89 /* LongPressGestureBootcamp.swift */,
 				0403D4AE2C5A633200E8EE89 /* MagnificationGestureBootcamp.swift */,
+				04DBA9872C5E4B0900494A5C /* RotationGestureBootcamp.swift */,
 			);
 			path = SwiftUIContinuedLearning;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 				04B467F92C576CA20063D494 /* NavigationSplitViewBootcamp.swift in Sources */,
 				04DFA2852C41083700DE210D /* SwiftCallSwiftUI.swift in Sources */,
 				04607AF52C4749C800B55034 /* DarkModeBootcamp.swift in Sources */,
+				04DBA9882C5E4B0900494A5C /* RotationGestureBootcamp.swift in Sources */,
 				04E380982C080A9200AB7CFB /* GradientsView.swift in Sources */,
 				04B467FB2C577AB10063D494 /* GridViewBootcamp.swift in Sources */,
 				04B467F72C57677E0063D494 /* ViewThatFitsBootcamp.swift in Sources */,
@@ -600,7 +604,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Bootcamp_Learn_Code/Preview Content\"";
-				DEVELOPMENT_TEAM = W84ZNZ88VX;
+				DEVELOPMENT_TEAM = UGWDKY4MZ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -629,7 +633,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Bootcamp_Learn_Code/Preview Content\"";
-				DEVELOPMENT_TEAM = W84ZNZ88VX;
+				DEVELOPMENT_TEAM = UGWDKY4MZ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

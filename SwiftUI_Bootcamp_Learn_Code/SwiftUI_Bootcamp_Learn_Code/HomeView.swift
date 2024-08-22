@@ -38,6 +38,15 @@ struct HomeView: View {
                     Text("SwiftUI Continued Learning")
                         .foregroundStyle(.green)
                 }
+                
+                Section {
+                    NavigationLink("SwiftAndSwiftUI") {
+                        SwiftUI_ContentView()
+                    }
+                } header: {
+                    Text("SwiftAndSwiftUI")
+                        .foregroundStyle(.purple)
+                }
             }
             
            
