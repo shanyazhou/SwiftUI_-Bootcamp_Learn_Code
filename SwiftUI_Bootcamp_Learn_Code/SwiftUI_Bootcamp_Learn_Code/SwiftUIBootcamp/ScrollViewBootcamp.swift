@@ -19,7 +19,7 @@ struct ScrollViewBootcamp: View {
                             ForEach(0..<20) { _ in
                                 Rectangle()
                                     //填充颜色
-                                    .foregroundColor(Color.white)
+                                    .foregroundColor(Color.random)
                                     .frame(width: 200, height: 150)
                                     //切圆角
                                     .cornerRadius(13.0)

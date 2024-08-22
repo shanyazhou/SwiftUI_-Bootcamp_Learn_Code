@@ -12,7 +12,6 @@ struct LearnGridView: View {
         //.fixed：固定大小
         GridItem(.fixed(50), spacing: nil, alignment: nil),//代表一列
         GridItem(.fixed(150), spacing: nil, alignment: nil),
-        
         //.flexible：灵活的
         //整分屏幕：如果只有一个，则整屏；如果有两个，则半屏；依次类推
         //spacing：左右间距，即列间距
@@ -43,7 +42,7 @@ struct LearnGridView: View {
                     ForEach(0..<70) { index in
                         Rectangle()
                             .frame(height: 50)
-                            .foregroundColor(.red)
+                            .foregroundColor(Color.random)
                     }
                 })
                 .background(.gray)

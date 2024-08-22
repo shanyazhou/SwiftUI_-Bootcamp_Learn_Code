@@ -28,7 +28,7 @@ struct SpacerView: View {
             HStack{
                 Spacer()
                     .frame(height: 5)//注意，这两个不能上下写反
-                    .background(.orange)//注意，这两个不能上下写反
+                    .background(.green)//注意，这两个不能上下写反
                 
                 Rectangle()
                     .fill(.red)
@@ -36,7 +36,7 @@ struct SpacerView: View {
                 
                 Spacer()
                     .frame(height: 5)
-                    .background(.orange)
+                    .background(.purple)
                 
                 Rectangle()
                     .fill(.green)
@@ -44,7 +44,7 @@ struct SpacerView: View {
                 
                 Spacer()
                     .frame(height: 5)
-                    .background(Color.orange)
+                    .background(Color.red)
             }
             .background(.gray)
             

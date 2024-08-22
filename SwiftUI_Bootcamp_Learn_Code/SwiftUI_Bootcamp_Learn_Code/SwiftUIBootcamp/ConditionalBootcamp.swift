@@ -14,6 +14,7 @@ struct ConditionalBootcamp: View {
         
         Button("Circle Button: \(showCircle.description)") {
             showCircle = !showCircle
+            //等价于：showCircle.toggle()
         }
         
         if showCircle == true{

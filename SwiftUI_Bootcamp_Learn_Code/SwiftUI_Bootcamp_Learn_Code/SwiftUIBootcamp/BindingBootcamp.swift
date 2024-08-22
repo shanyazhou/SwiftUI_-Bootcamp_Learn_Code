@@ -32,8 +32,8 @@ struct ButtonView: View {
     var body: some View {
         Button(action: {
             //按钮点击，去改变父类的背景颜色
-            xxx = Color.orange
-            ButtonColor = Color.green
+            xxx = Color.orange//这个，才是子改父
+            ButtonColor = Color.red//这个，仅是该View下使用
         }, label: {
             Text("Button")
                 .foregroundColor(.white)

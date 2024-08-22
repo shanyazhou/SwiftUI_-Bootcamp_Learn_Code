@@ -10,10 +10,6 @@ import SwiftUI
 struct SafeView: View {
     var body: some View {
         
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .background(.red)
-            .frame(width: .infinity, height: .infinity)
-            
         Rectangle()
             .frame(width: .infinity, height: .infinity)
             .foregroundColor(.red)
@@ -23,15 +19,25 @@ struct SafeView: View {
             .ignoresSafeArea()
         
         
+        
+
+        
         ScrollView{
             VStack{
+                Text("Hello, World!")
+                    .background(.orange)
+                    .frame(width: .infinity, height: .infinity)
+                    .background(.yellow)
+                
                 Text("This is title")
+                    .background(.green)
                     .font(.largeTitle)
                     .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(.blue)
                 
                 ForEach(0..<10){ index in
                     RoundedRectangle(cornerRadius: 25)
-                        .fill(.white)
+                        .fill(Color.random)
                         .frame(height: 150)
                         .shadow(radius: 10)
                         .padding()

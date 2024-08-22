@@ -16,7 +16,7 @@ struct ExtractSubViewBootcamp: View {
             contentLay
         }
     }
-    
+    ///其实是一个属性View
     var contentLay: some View {
         HStack{
             MyItem(count: 1, title: "apple", myColor: .red)

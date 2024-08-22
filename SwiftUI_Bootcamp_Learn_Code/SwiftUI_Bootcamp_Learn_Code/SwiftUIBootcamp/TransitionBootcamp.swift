@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TransitionBootcamp: View {
     
-    @State var isShowView: Bool = true
+    @State var isShowView: Bool = false
     
     var body: some View {
         ZStack(alignment: .bottom) {
