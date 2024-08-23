@@ -25,6 +25,7 @@ struct ActionsheetBootcamp: View {
                 Text("userNane")
                 Spacer()
                 Button(action: {
+                    ///这里可以修改
                     actionSheetOption = .isMyPost
                     isPresented.toggle()
                 }, label: {
@@ -34,6 +35,7 @@ struct ActionsheetBootcamp: View {
             Rectangle()
                 .frame(width: 370, height: 300)
                 .cornerRadius(10)
+                .foregroundStyle(Color.random)
         }
         .padding(10)
         

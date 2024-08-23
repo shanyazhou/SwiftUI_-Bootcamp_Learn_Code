@@ -25,14 +25,14 @@ struct AppStorageBootcamp: View {
             let name: String = "Nick"
             currentUserName = name
             currentUserAge = 100
-            
+            //使用方法一，存name
             UserDefaults.standard.setValue(name, forKey: "name")
         }
         
         .onAppear(){
             currentUserName = UserDefaults.standard.value(forKey: "name") as? String
         }
-        
+        //使用方法二存age
         if let age = currentUserAge {
             Text("age = \(String(describing: age))")
         }

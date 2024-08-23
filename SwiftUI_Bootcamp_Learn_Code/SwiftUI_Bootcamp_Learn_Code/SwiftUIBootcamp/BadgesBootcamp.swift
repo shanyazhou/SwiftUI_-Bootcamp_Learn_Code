@@ -10,7 +10,7 @@ import SwiftUI
 struct BadgesBootcamp: View {
     var body: some View {
         ZStack{
-            Color.yellow.ignoresSafeArea(.all)
+            Color.purple.ignoresSafeArea(.all)
             TabView{
                 Color.red
                     .tabItem {
@@ -18,6 +18,7 @@ struct BadgesBootcamp: View {
                         Text("Hello")
                     }
                     .badge("NEW")
+                    .ignoresSafeArea(.all, edges: .top)
                 
                 Color.yellow
                     .tabItem {
@@ -33,6 +34,7 @@ struct BadgesBootcamp: View {
                     }
                     .badge(120)
             }
+//            .frame(height: 300)
         }
     }
 }

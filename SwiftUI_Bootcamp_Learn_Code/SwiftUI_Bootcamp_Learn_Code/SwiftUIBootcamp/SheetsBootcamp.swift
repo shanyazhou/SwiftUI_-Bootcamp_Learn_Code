@@ -65,13 +65,13 @@ struct SheetsBootcamp: View {
             
             ///pop出下一个view
             .sheet(isPresented: $isPresented1, content: {
-                NextSheetsBootcamp(isPresented: $isPresented1)
+                NextSheetsBootcamp(isPresented: $isPresented1, isMethodOne: true)
             })
             
             
             ///全屏出现
             .fullScreenCover(isPresented: $isPresented2, content: {
-                NextSheetsBootcamp(isPresented: $isPresented2)
+                NextSheetsBootcamp(isPresented: $isPresented2, isMethodOne: true)
             })
             
             ///方法二：Transition
@@ -103,6 +103,9 @@ struct NextSheetsBootcamp: View {
     
     ///反向传值，即子控制父
     @Binding var isPresented: Bool
+    
+    var isMethodOne: Bool = false
+    
     var body: some View {
         ///关闭按钮在左上角
         ZStack(alignment: .topLeading) {
@@ -110,11 +113,14 @@ struct NextSheetsBootcamp: View {
                 .edgesIgnoringSafeArea(.all)
             
             Button(action: {
-                ///点击按钮，关闭popView
-                presentationMode.wrappedValue.dismiss()
+                if isMethodOne{
+                    ///点击按钮，关闭popView
+                    presentationMode.wrappedValue.dismiss()
+                }else{
+                    ///方法二、三的关闭
+                    isPresented.toggle()
+                }
                 
-                ///方法二、三的关闭
-//                isPresented.toggle()
             }, label: {
                 Image(systemName: "xmark")
                     .foregroundColor(.white)

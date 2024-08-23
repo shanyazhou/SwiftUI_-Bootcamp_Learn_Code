@@ -29,8 +29,8 @@ struct AlertBootcamp: View {
     func getAlert() -> Alert {
         return Alert(title: Text("There was an error!"),
                      message: Text("This is a message"),
-                     primaryButton: .destructive(Text("red color"), action: {
-                       backgroundColor = .red
+                     primaryButton: .destructive(Text("random color"), action: {
+                       backgroundColor = .random
                      }),
                      secondaryButton: .default(Text("cancel")))
     }

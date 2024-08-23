@@ -16,7 +16,7 @@ struct TextfieldBootcamp: View {
             VStack(alignment: .leading){
                 TextField("请输入文字", text: $textFieldString)
                     .padding()
-                    .background(.gray.opacity(0.5))
+                    .background(.gray.opacity(0.2))
                     .foregroundStyle(.red)
                     .cornerRadius(5.0)
                     .font(.headline)
@@ -28,7 +28,7 @@ struct TextfieldBootcamp: View {
                 }
                 .padding()
                 .frame(maxWidth: .infinity)
-                .background(isRight() ? .blue : .gray)
+                .background(isRight() ? .blue : .gray.opacity(0.6))
                 .foregroundStyle(.white)
                 .cornerRadius(5.0)
                 .disabled(!isRight())

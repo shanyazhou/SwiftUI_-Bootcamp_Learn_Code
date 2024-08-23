@@ -31,7 +31,7 @@ struct ModelBootcamp: View {
                     HStack {
                         Circle()
                             .frame(width: 40, height: 40)
-                            .foregroundColor(.yellow)
+                            .foregroundColor(.random)
                         
                         VStack{
                             Text(userArray[index].name)

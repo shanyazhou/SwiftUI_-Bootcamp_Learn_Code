@@ -34,7 +34,7 @@ struct PickerBootcamp: View {
                 Picker(selection: $selection1) {
                     ForEach(18...100, id: \.self) { item in
                         //tag不能少，因为text只是显示，tag才是给上面selection使用的
-                        Text("\(item)").tag("\(item)")
+                        Text("\(item)").tag("\(item)~~~")
                     }
                 } label: {
                     Text("Picker")

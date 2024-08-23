@@ -17,6 +17,7 @@ struct BackgroundMaterialsBootcamp: View {
                 RoundedRectangle(cornerRadius: 4)
                     .frame(width: 50, height: 4)
                     .padding()
+                    .foregroundColor(.red)
                     
                 Spacer()
             }
