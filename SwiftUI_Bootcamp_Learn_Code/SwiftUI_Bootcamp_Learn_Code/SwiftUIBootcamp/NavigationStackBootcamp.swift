@@ -64,11 +64,12 @@ struct NavigationStackBootcamp: View {
                 }
             }
             .navigationTitle("这是一个标题")
+            //可以写多个目的地，根据类型判断进哪一个
             .navigationDestination(for: Int.self) { item in
                 MySecondViewScreen(index: item)
             }
             .navigationDestination(for: String.self) { item in
-                Text("next view: \(item)")
+                Text("next view: String - \(item)")
             }
         }
     }
@@ -84,7 +85,7 @@ struct MySecondViewScreen: View {
     }
     
     var body: some View {
-        Text("next view: \(index)")
+        Text("next view: Int - \(index)")
     }
 }
 

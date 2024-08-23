@@ -14,7 +14,7 @@ struct SafeAreaInsetBootcamp: View {
                 
                 Rectangle()
                     .foregroundColor(.blue)//长方形的背景颜色
-                    .frame(height: 300)
+                    .frame(height: 100)
                 
                 //list的背景颜色
                 .listRowBackground(Color.green)

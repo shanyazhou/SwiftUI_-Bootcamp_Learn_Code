@@ -20,7 +20,7 @@ struct MagnificationGestureBootcamp: View {
             
             Spacer()
             
-            Text("双击放大缩小我")
+            Text("两手指放大缩小我")
                 .frame(width: 200, height: 80)
                 .background(.red)
                 .cornerRadius(4.0)

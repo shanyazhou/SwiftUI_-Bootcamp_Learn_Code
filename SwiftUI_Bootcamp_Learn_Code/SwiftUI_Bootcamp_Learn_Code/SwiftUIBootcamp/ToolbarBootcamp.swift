@@ -22,7 +22,7 @@ struct ToolbarBootcamp: View {
                     TextField("Placeholder", text: $textFieldString)
                     Text("你好~")
                         .font(.largeTitle)
-                        .foregroundStyle(.white)
+                        .foregroundStyle(.black)
                     
                     ForEach(0..<50) { _ in
                         Rectangle()
