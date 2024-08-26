@@ -20,6 +20,8 @@
 		0430354B2C4FA17900E5A91A /* BadgesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430354A2C4FA17900E5A91A /* BadgesBootcamp.swift */; };
 		04337EE82C78882300FB7261 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EE72C78882300FB7261 /* DragGestureBootcamp.swift */; };
 		04337EEA2C7C0DC100FB7261 /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EE92C7C0DC100FB7261 /* DragGestureBootcamp2.swift */; };
+		04337EEC2C7C535B00FB7261 /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EEB2C7C535B00FB7261 /* ScrollViewReaderBootcamp.swift */; };
+		04337EEE2C7C691D00FB7261 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EED2C7C691D00FB7261 /* GeometryReaderBootcamp.swift */; };
 		045DD4872C49F1AD008E119C /* ViewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD4862C49F1AD008E119C /* ViewModelBootcamp.swift */; };
 		045DD4892C49F7CD008E119C /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD4882C49F7CD008E119C /* Color+extension.swift */; };
 		04607AF52C4749C800B55034 /* DarkModeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04607AF42C4749C800B55034 /* DarkModeBootcamp.swift */; };
@@ -106,6 +108,8 @@
 		0430354A2C4FA17900E5A91A /* BadgesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesBootcamp.swift; sourceTree = "<group>"; };
 		04337EE72C78882300FB7261 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
 		04337EE92C7C0DC100FB7261 /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
+		04337EEB2C7C535B00FB7261 /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
+		04337EED2C7C691D00FB7261 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		045DD4862C49F1AD008E119C /* ViewModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBootcamp.swift; sourceTree = "<group>"; };
 		045DD4882C49F7CD008E119C /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
 		04607AF42C4749C800B55034 /* DarkModeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBootcamp.swift; sourceTree = "<group>"; };
@@ -199,6 +203,8 @@
 				04DBA9872C5E4B0900494A5C /* RotationGestureBootcamp.swift */,
 				04337EE72C78882300FB7261 /* DragGestureBootcamp.swift */,
 				04337EE92C7C0DC100FB7261 /* DragGestureBootcamp2.swift */,
+				04337EEB2C7C535B00FB7261 /* ScrollViewReaderBootcamp.swift */,
+				04337EED2C7C691D00FB7261 /* GeometryReaderBootcamp.swift */,
 			);
 			path = SwiftUIContinuedLearning;
 			sourceTree = "<group>";
@@ -457,6 +463,7 @@
 				04DBA9882C5E4B0900494A5C /* RotationGestureBootcamp.swift in Sources */,
 				04E380982C080A9200AB7CFB /* GradientsView.swift in Sources */,
 				04B467FB2C577AB10063D494 /* GridViewBootcamp.swift in Sources */,
+				04337EEC2C7C535B00FB7261 /* ScrollViewReaderBootcamp.swift in Sources */,
 				04B467F72C57677E0063D494 /* ViewThatFitsBootcamp.swift in Sources */,
 				04E3809C2C08297200AB7CFB /* FrameView.swift in Sources */,
 				04E380A22C09735000AB7CFB /* SpacerView.swift in Sources */,
@@ -478,6 +485,7 @@
 				047E59892C44B0FD00EE672F /* HomeListView.swift in Sources */,
 				04B467ED2C5720300063D494 /* NativePopoverBootcamp.swift in Sources */,
 				0430353F2C4F5E0600E5A91A /* EnvironmentObjectBootcamp.swift in Sources */,
+				04337EEE2C7C691D00FB7261 /* GeometryReaderBootcamp.swift in Sources */,
 				04EA87E12C56471F0019B7DD /* ResizableSheetBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -32,9 +32,15 @@ struct SwiftUIContinuedLearningList: View {
                             .toolbar(.hidden, for: .tabBar)
                     }
                     
+                    NavigationLink("ScrollViewReaderBootcamp") {
+                        ScrollViewReaderBootcamp(textString: "0")
+                            .toolbar(.hidden, for: .tabBar)
+                    }
                     
-                    
-                    
+                    NavigationLink("GeometryReaderBootcamp") {
+                        GeometryReaderBootcamp3()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
                     
                 } header: {
                     HStack{

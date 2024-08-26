@@ -7,10 +7,10 @@
 
 import SwiftUI
 
+public let kScreenWidth = UIScreen.main.bounds.width
+public let kScreenHeight = UIScreen.main.bounds.height
+
 struct DragGestureBootcamp2: View {
-    
-    public let kScreenWidth = UIScreen.main.bounds.width
-    public let kScreenHeight = UIScreen.main.bounds.height
     
     ///开始的地方
     @State var staringOffsetY: CGFloat = UIScreen.main.bounds.height * 0.82
