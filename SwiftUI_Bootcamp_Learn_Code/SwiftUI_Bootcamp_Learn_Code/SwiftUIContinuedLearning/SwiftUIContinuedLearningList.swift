@@ -22,6 +22,18 @@ struct SwiftUIContinuedLearningList: View {
                             .toolbar(.hidden, for: .tabBar)
                     }
                     
+                    NavigationLink("DragGestureBootcamp") {
+                        DragGestureBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    NavigationLink("DragGestureBootcamp2") {
+                        DragGestureBootcamp2()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    
+                    
                     
                     
                 } header: {

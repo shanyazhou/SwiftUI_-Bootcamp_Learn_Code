@@ -18,6 +18,8 @@
 		043035472C4F97CE00E5A91A /* ButtonStylesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043035462C4F97CE00E5A91A /* ButtonStylesBootcamp.swift */; };
 		043035492C4F9D1E00E5A91A /* ListSwipeActionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043035482C4F9D1E00E5A91A /* ListSwipeActionsBootcamp.swift */; };
 		0430354B2C4FA17900E5A91A /* BadgesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430354A2C4FA17900E5A91A /* BadgesBootcamp.swift */; };
+		04337EE82C78882300FB7261 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EE72C78882300FB7261 /* DragGestureBootcamp.swift */; };
+		04337EEA2C7C0DC100FB7261 /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EE92C7C0DC100FB7261 /* DragGestureBootcamp2.swift */; };
 		045DD4872C49F1AD008E119C /* ViewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD4862C49F1AD008E119C /* ViewModelBootcamp.swift */; };
 		045DD4892C49F7CD008E119C /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD4882C49F7CD008E119C /* Color+extension.swift */; };
 		04607AF52C4749C800B55034 /* DarkModeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04607AF42C4749C800B55034 /* DarkModeBootcamp.swift */; };
@@ -102,6 +104,8 @@
 		043035462C4F97CE00E5A91A /* ButtonStylesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesBootcamp.swift; sourceTree = "<group>"; };
 		043035482C4F9D1E00E5A91A /* ListSwipeActionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActionsBootcamp.swift; sourceTree = "<group>"; };
 		0430354A2C4FA17900E5A91A /* BadgesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesBootcamp.swift; sourceTree = "<group>"; };
+		04337EE72C78882300FB7261 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
+		04337EE92C7C0DC100FB7261 /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
 		045DD4862C49F1AD008E119C /* ViewModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBootcamp.swift; sourceTree = "<group>"; };
 		045DD4882C49F7CD008E119C /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
 		04607AF42C4749C800B55034 /* DarkModeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBootcamp.swift; sourceTree = "<group>"; };
@@ -193,6 +197,8 @@
 				0403D4AA2C5A3A6F00E8EE89 /* LongPressGestureBootcamp.swift */,
 				0403D4AE2C5A633200E8EE89 /* MagnificationGestureBootcamp.swift */,
 				04DBA9872C5E4B0900494A5C /* RotationGestureBootcamp.swift */,
+				04337EE72C78882300FB7261 /* DragGestureBootcamp.swift */,
+				04337EE92C7C0DC100FB7261 /* DragGestureBootcamp2.swift */,
 			);
 			path = SwiftUIContinuedLearning;
 			sourceTree = "<group>";
@@ -404,6 +410,7 @@
 				04E380862C08070400AB7CFB /* ContentView.swift in Sources */,
 				04EA87E32C5657080019B7DD /* SafeAreaInsetBootcamp.swift in Sources */,
 				04DFA27D2C41010000DE210D /* UIViewRepresentable.swift in Sources */,
+				04337EEA2C7C0DC100FB7261 /* DragGestureBootcamp2.swift in Sources */,
 				04E380A02C09563200AB7CFB /* StacksView.swift in Sources */,
 				04AD18522C33A67800B9AC78 /* NavigationViewBootcamp.swift in Sources */,
 				04E3809E2C082D6F00AB7CFB /* BackgroundAndOverlayView.swift in Sources */,
@@ -446,6 +453,7 @@
 				04B467F92C576CA20063D494 /* NavigationSplitViewBootcamp.swift in Sources */,
 				04DFA2852C41083700DE210D /* SwiftCallSwiftUI.swift in Sources */,
 				04607AF52C4749C800B55034 /* DarkModeBootcamp.swift in Sources */,
+				04337EE82C78882300FB7261 /* DragGestureBootcamp.swift in Sources */,
 				04DBA9882C5E4B0900494A5C /* RotationGestureBootcamp.swift in Sources */,
 				04E380982C080A9200AB7CFB /* GradientsView.swift in Sources */,
 				04B467FB2C577AB10063D494 /* GridViewBootcamp.swift in Sources */,
