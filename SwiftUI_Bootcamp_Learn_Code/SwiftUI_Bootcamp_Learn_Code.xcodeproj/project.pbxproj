@@ -22,6 +22,10 @@
 		04337EEA2C7C0DC100FB7261 /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EE92C7C0DC100FB7261 /* DragGestureBootcamp2.swift */; };
 		04337EEC2C7C535B00FB7261 /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EEB2C7C535B00FB7261 /* ScrollViewReaderBootcamp.swift */; };
 		04337EEE2C7C691D00FB7261 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EED2C7C691D00FB7261 /* GeometryReaderBootcamp.swift */; };
+		04337EF02C7D5CE900FB7261 /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EEF2C7D5CE900FB7261 /* MultipleSheetsBootcamp.swift */; };
+		04337EF22C7DA7C100FB7261 /* MultipleSheetsCorrectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EF12C7DA7C100FB7261 /* MultipleSheetsCorrectBootcamp.swift */; };
+		04337EF42C7DAA0800FB7261 /* MultipleSheetsCorrec2Bootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EF32C7DAA0800FB7261 /* MultipleSheetsCorrec2Bootcamp.swift */; };
+		04337EF62C7DB0A400FB7261 /* MultipleSheetsCorrect3Bootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EF52C7DB0A400FB7261 /* MultipleSheetsCorrect3Bootcamp.swift */; };
 		045DD4872C49F1AD008E119C /* ViewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD4862C49F1AD008E119C /* ViewModelBootcamp.swift */; };
 		045DD4892C49F7CD008E119C /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD4882C49F7CD008E119C /* Color+extension.swift */; };
 		04607AF52C4749C800B55034 /* DarkModeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04607AF42C4749C800B55034 /* DarkModeBootcamp.swift */; };
@@ -110,6 +114,10 @@
 		04337EE92C7C0DC100FB7261 /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
 		04337EEB2C7C535B00FB7261 /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		04337EED2C7C691D00FB7261 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
+		04337EEF2C7D5CE900FB7261 /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
+		04337EF12C7DA7C100FB7261 /* MultipleSheetsCorrectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsCorrectBootcamp.swift; sourceTree = "<group>"; };
+		04337EF32C7DAA0800FB7261 /* MultipleSheetsCorrec2Bootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsCorrec2Bootcamp.swift; sourceTree = "<group>"; };
+		04337EF52C7DB0A400FB7261 /* MultipleSheetsCorrect3Bootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsCorrect3Bootcamp.swift; sourceTree = "<group>"; };
 		045DD4862C49F1AD008E119C /* ViewModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBootcamp.swift; sourceTree = "<group>"; };
 		045DD4882C49F7CD008E119C /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
 		04607AF42C4749C800B55034 /* DarkModeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBootcamp.swift; sourceTree = "<group>"; };
@@ -205,6 +213,10 @@
 				04337EE92C7C0DC100FB7261 /* DragGestureBootcamp2.swift */,
 				04337EEB2C7C535B00FB7261 /* ScrollViewReaderBootcamp.swift */,
 				04337EED2C7C691D00FB7261 /* GeometryReaderBootcamp.swift */,
+				04337EEF2C7D5CE900FB7261 /* MultipleSheetsBootcamp.swift */,
+				04337EF12C7DA7C100FB7261 /* MultipleSheetsCorrectBootcamp.swift */,
+				04337EF32C7DAA0800FB7261 /* MultipleSheetsCorrec2Bootcamp.swift */,
+				04337EF52C7DB0A400FB7261 /* MultipleSheetsCorrect3Bootcamp.swift */,
 			);
 			path = SwiftUIContinuedLearning;
 			sourceTree = "<group>";
@@ -407,9 +419,12 @@
 				04B467F32C5724BB0063D494 /* ExtractSubViewBootcamp.swift in Sources */,
 				04B467FD2C577EC70063D494 /* GridBootcamp.swift in Sources */,
 				04EA87E52C5661090019B7DD /* GroupBootcamp.swift in Sources */,
+				04337EF62C7DB0A400FB7261 /* MultipleSheetsCorrect3Bootcamp.swift in Sources */,
 				04B468062C59D0B90063D494 /* HomeView.swift in Sources */,
 				04E380AA2C09D3DB00AB7CFB /* LearnGridView.swift in Sources */,
+				04337EF42C7DAA0800FB7261 /* MultipleSheetsCorrec2Bootcamp.swift in Sources */,
 				04DFA27F2C41020F00DE210D /* SwiftUI_MyTextField.swift in Sources */,
+				04337EF22C7DA7C100FB7261 /* MultipleSheetsCorrectBootcamp.swift in Sources */,
 				0430354B2C4FA17900E5A91A /* BadgesBootcamp.swift in Sources */,
 				043035412C4F890900E5A91A /* AppStorageBootcamp.swift in Sources */,
 				04AD18562C33EE6100B9AC78 /* AlertBootcamp.swift in Sources */,
@@ -472,6 +487,7 @@
 				04E5A0D82C3143D700218561 /* AnimationBootcamp.swift in Sources */,
 				04B468032C57A3A20063D494 /* ObservableBootcampIOS17.swift in Sources */,
 				04EA87E72C5664540019B7DD /* AnimationUpdateBootcamp.swift in Sources */,
+				04337EF02C7D5CE900FB7261 /* MultipleSheetsBootcamp.swift in Sources */,
 				0403D4AB2C5A3A6F00E8EE89 /* LongPressGestureBootcamp.swift in Sources */,
 				04B467F52C5747CA0063D494 /* AnyLayoutBootcamp.swift in Sources */,
 				04AD18542C33D16100B9AC78 /* ListBootcamp.swift in Sources */,
