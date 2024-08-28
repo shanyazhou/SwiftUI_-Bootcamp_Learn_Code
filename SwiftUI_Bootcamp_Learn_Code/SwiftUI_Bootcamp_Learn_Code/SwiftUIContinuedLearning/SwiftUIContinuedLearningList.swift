@@ -52,6 +52,11 @@ struct SwiftUIContinuedLearningList: View {
                             .toolbar(.hidden, for: .tabBar)
                     }
                     
+                    NavigationLink("HapticsBootcamp") {
+                        HapticsBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
                 } header: {
                     HStack{
                         Text("示例集合")

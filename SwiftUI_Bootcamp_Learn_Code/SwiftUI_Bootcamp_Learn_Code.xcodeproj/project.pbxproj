@@ -30,6 +30,7 @@
 		04337EFA2C7EC1D800FB7261 /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EF92C7EC1D800FB7261 /* SoundsBootcamp.swift */; };
 		04337EFE2C7EC3E600FB7261 /* voip_calling_ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04337EFC2C7EC3E600FB7261 /* voip_calling_ring.mp3 */; };
 		04337EFF2C7EC3E600FB7261 /* voip_call.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04337EFD2C7EC3E600FB7261 /* voip_call.mp3 */; };
+		04337F022C7F1B7E00FB7261 /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337F012C7F1B7E00FB7261 /* HapticsBootcamp.swift */; };
 		045DD4872C49F1AD008E119C /* ViewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD4862C49F1AD008E119C /* ViewModelBootcamp.swift */; };
 		045DD4892C49F7CD008E119C /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD4882C49F7CD008E119C /* Color+extension.swift */; };
 		04607AF52C4749C800B55034 /* DarkModeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04607AF42C4749C800B55034 /* DarkModeBootcamp.swift */; };
@@ -127,6 +128,7 @@
 		04337EFC2C7EC3E600FB7261 /* voip_calling_ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voip_calling_ring.mp3; sourceTree = "<group>"; };
 		04337EFD2C7EC3E600FB7261 /* voip_call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voip_call.mp3; sourceTree = "<group>"; };
 		04337F002C7ECE3F00FB7261 /* SwiftUI-Bootcamp-Learn-Code-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-Bootcamp-Learn-Code-Info.plist"; sourceTree = SOURCE_ROOT; };
+		04337F012C7F1B7E00FB7261 /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		045DD4862C49F1AD008E119C /* ViewModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBootcamp.swift; sourceTree = "<group>"; };
 		045DD4882C49F7CD008E119C /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
 		04607AF42C4749C800B55034 /* DarkModeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBootcamp.swift; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 				04337EF52C7DB0A400FB7261 /* MultipleSheetsCorrect3Bootcamp.swift */,
 				04337EF72C7EAB7F00FB7261 /* MaskBootcamp.swift */,
 				04337EF92C7EC1D800FB7261 /* SoundsBootcamp.swift */,
+				04337F012C7F1B7E00FB7261 /* HapticsBootcamp.swift */,
 			);
 			path = SwiftUIContinuedLearning;
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 				04B468062C59D0B90063D494 /* HomeView.swift in Sources */,
 				04E380AA2C09D3DB00AB7CFB /* LearnGridView.swift in Sources */,
 				04337EF42C7DAA0800FB7261 /* MultipleSheetsCorrec2Bootcamp.swift in Sources */,
+				04337F022C7F1B7E00FB7261 /* HapticsBootcamp.swift in Sources */,
 				04DFA27F2C41020F00DE210D /* SwiftUI_MyTextField.swift in Sources */,
 				04337EF22C7DA7C100FB7261 /* MultipleSheetsCorrectBootcamp.swift in Sources */,
 				0430354B2C4FA17900E5A91A /* BadgesBootcamp.swift in Sources */,
