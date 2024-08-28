@@ -57,6 +57,11 @@ struct SwiftUIContinuedLearningList: View {
                             .toolbar(.hidden, for: .tabBar)
                     }
                     
+                    NavigationLink("HashableBootcamp") {
+                        HashableBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
                 } header: {
                     HStack{
                         Text("示例集合")
