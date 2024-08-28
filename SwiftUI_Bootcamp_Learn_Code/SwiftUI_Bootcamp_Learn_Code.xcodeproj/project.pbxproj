@@ -26,6 +26,10 @@
 		04337EF22C7DA7C100FB7261 /* MultipleSheetsCorrectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EF12C7DA7C100FB7261 /* MultipleSheetsCorrectBootcamp.swift */; };
 		04337EF42C7DAA0800FB7261 /* MultipleSheetsCorrec2Bootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EF32C7DAA0800FB7261 /* MultipleSheetsCorrec2Bootcamp.swift */; };
 		04337EF62C7DB0A400FB7261 /* MultipleSheetsCorrect3Bootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EF52C7DB0A400FB7261 /* MultipleSheetsCorrect3Bootcamp.swift */; };
+		04337EF82C7EAB7F00FB7261 /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EF72C7EAB7F00FB7261 /* MaskBootcamp.swift */; };
+		04337EFA2C7EC1D800FB7261 /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04337EF92C7EC1D800FB7261 /* SoundsBootcamp.swift */; };
+		04337EFE2C7EC3E600FB7261 /* voip_calling_ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04337EFC2C7EC3E600FB7261 /* voip_calling_ring.mp3 */; };
+		04337EFF2C7EC3E600FB7261 /* voip_call.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04337EFD2C7EC3E600FB7261 /* voip_call.mp3 */; };
 		045DD4872C49F1AD008E119C /* ViewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD4862C49F1AD008E119C /* ViewModelBootcamp.swift */; };
 		045DD4892C49F7CD008E119C /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD4882C49F7CD008E119C /* Color+extension.swift */; };
 		04607AF52C4749C800B55034 /* DarkModeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04607AF42C4749C800B55034 /* DarkModeBootcamp.swift */; };
@@ -118,6 +122,11 @@
 		04337EF12C7DA7C100FB7261 /* MultipleSheetsCorrectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsCorrectBootcamp.swift; sourceTree = "<group>"; };
 		04337EF32C7DAA0800FB7261 /* MultipleSheetsCorrec2Bootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsCorrec2Bootcamp.swift; sourceTree = "<group>"; };
 		04337EF52C7DB0A400FB7261 /* MultipleSheetsCorrect3Bootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsCorrect3Bootcamp.swift; sourceTree = "<group>"; };
+		04337EF72C7EAB7F00FB7261 /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
+		04337EF92C7EC1D800FB7261 /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
+		04337EFC2C7EC3E600FB7261 /* voip_calling_ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voip_calling_ring.mp3; sourceTree = "<group>"; };
+		04337EFD2C7EC3E600FB7261 /* voip_call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voip_call.mp3; sourceTree = "<group>"; };
+		04337F002C7ECE3F00FB7261 /* SwiftUI-Bootcamp-Learn-Code-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-Bootcamp-Learn-Code-Info.plist"; sourceTree = SOURCE_ROOT; };
 		045DD4862C49F1AD008E119C /* ViewModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBootcamp.swift; sourceTree = "<group>"; };
 		045DD4882C49F7CD008E119C /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
 		04607AF42C4749C800B55034 /* DarkModeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBootcamp.swift; sourceTree = "<group>"; };
@@ -217,8 +226,19 @@
 				04337EF12C7DA7C100FB7261 /* MultipleSheetsCorrectBootcamp.swift */,
 				04337EF32C7DAA0800FB7261 /* MultipleSheetsCorrec2Bootcamp.swift */,
 				04337EF52C7DB0A400FB7261 /* MultipleSheetsCorrect3Bootcamp.swift */,
+				04337EF72C7EAB7F00FB7261 /* MaskBootcamp.swift */,
+				04337EF92C7EC1D800FB7261 /* SoundsBootcamp.swift */,
 			);
 			path = SwiftUIContinuedLearning;
+			sourceTree = "<group>";
+		};
+		04337EFB2C7EC38600FB7261 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				04337EFD2C7EC3E600FB7261 /* voip_call.mp3 */,
+				04337EFC2C7EC3E600FB7261 /* voip_calling_ring.mp3 */,
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 		04B468042C59D0640063D494 /* SwiftUIBootcamp */ = {
@@ -327,6 +347,8 @@
 		04E380822C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_Code */ = {
 			isa = PBXGroup;
 			children = (
+				04337F002C7ECE3F00FB7261 /* SwiftUI-Bootcamp-Learn-Code-Info.plist */,
+				04337EFB2C7EC38600FB7261 /* Media */,
 				04E380832C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_CodeApp.swift */,
 				04B468052C59D0B90063D494 /* HomeView.swift */,
 				04B468042C59D0640063D494 /* SwiftUIBootcamp */,
@@ -404,8 +426,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04337EFF2C7EC3E600FB7261 /* voip_call.mp3 in Resources */,
 				04E3808D2C08070600AB7CFB /* Preview Assets.xcassets in Resources */,
 				04E3808A2C08070600AB7CFB /* Assets.xcassets in Resources */,
+				04337EFE2C7EC3E600FB7261 /* voip_calling_ring.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +488,7 @@
 				04EA87DF2C560FB40019B7DD /* ToolbarBootcamp.swift in Sources */,
 				04E380842C08070400AB7CFB /* SwiftUI_Bootcamp_Learn_CodeApp.swift in Sources */,
 				048488692C3BBFF400B9CD10 /* ColorPickerBootcamp.swift in Sources */,
+				04337EFA2C7EC1D800FB7261 /* SoundsBootcamp.swift in Sources */,
 				043035472C4F97CE00E5A91A /* ButtonStylesBootcamp.swift in Sources */,
 				04607AF92C475E0700B55034 /* TapGestureBootcamp.swift in Sources */,
 				0484886D2C3BD54900B9CD10 /* StepperBootcamp.swift in Sources */,
@@ -494,6 +519,7 @@
 				04BDD0A72C40FA130034FC1A /* Swift_ActivityIndicator.swift in Sources */,
 				04607AF72C47551400B55034 /* OnAppearBootcamp.swift in Sources */,
 				04BDD0A92C40FA3F0034FC1A /* SwiftUI_ContentView.swift in Sources */,
+				04337EF82C7EAB7F00FB7261 /* MaskBootcamp.swift in Sources */,
 				04E5A0D62C3134C700218561 /* ConditionalBootcamp.swift in Sources */,
 				047081F12C2FE24000156465 /* BindingBootcamp.swift in Sources */,
 				04E380962C08081E00AB7CFB /* ColorView.swift in Sources */,
@@ -639,6 +665,7 @@
 				DEVELOPMENT_TEAM = UGWDKY4MZ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Bootcamp-Learn-Code-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -668,6 +695,7 @@
 				DEVELOPMENT_TEAM = UGWDKY4MZ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Bootcamp-Learn-Code-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

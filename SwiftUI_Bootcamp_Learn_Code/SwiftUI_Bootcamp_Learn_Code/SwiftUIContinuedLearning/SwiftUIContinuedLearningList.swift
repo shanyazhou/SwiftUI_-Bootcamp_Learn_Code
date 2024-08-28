@@ -42,6 +42,16 @@ struct SwiftUIContinuedLearningList: View {
                             .toolbar(.hidden, for: .tabBar)
                     }
                     
+                    NavigationLink("MultipleSheetsCorrect3Bootcamp") {
+                        MultipleSheetsCorrect3Bootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
+                    NavigationLink("SoundsBootcamp") {
+                        SoundsBootcamp()
+                            .toolbar(.hidden, for: .tabBar)
+                    }
+                    
                 } header: {
                     HStack{
                         Text("示例集合")
